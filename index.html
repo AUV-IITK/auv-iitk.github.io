@@ -26,178 +26,302 @@
 			window.onscroll = function() {mF()};
 				function mF() {
 				var y = document.getElementById("header");
-				if(window.pageYOffset >= 450)
+				if(window.pageYOffset >= 30)
 					y.style.background = "rgba(0, 0, 0, 1.0)";
 				else 
-					y.style.background = "rgba(0, 0, 0, 0.5)";
+					y.style.background = "rgba(0, 0, 0, 0.7)";
 			}
-			<!--Facebook>
-				  window.fbAsyncInit = function() {
-						FB.init({
-						  appId            : 167782130461571,
-						  autoLogAppEvents : true,
-						  xfbml            : true,
-						  version          : 'v2.10'
-						});
-						FB.AppEvents.logPageView();
-  };
 			
 			
-			
-			(function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=167782130461571";
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
+			 <!--Twitter>      
+            !function(d,s,id) {
+				var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				if(!d.getElementById(id)) {
+					js=d.createElement(s);
+					js.id=id;
+					js.src=p+"://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);
+				}
+			} (document,"script","twitter-wjs");
+          
 		</script>
 		<style>
-			
-		</style>
+		
+		#NEWS {
+			background: white;
+			float:left;
+			width:50%;
+			min-height:500px;
+			display:inline-block;
+			position:relative; 
+		}
+		#NEWS1 {
+			color:#1e64ae;
+			padding:50px 25px 25px 0px;
+			margin-left:7%;
+			width:80%;
+			font-size:1.8em;
+		}
+		#NEWS3 {
+			color:#00a1e6;
+			background:#cccccc;
+			width:150px;
+			padding:10px 0px;
+			text-align:center;
+			font-size:1.0em;
+			margin-left:7%;
+			margin-top:25px;
+			margin-bottom:55px;
+			float:left;
+			clear:left;
+		}
+		#NEWS3:hover {
+			background:#00a1e6;
+			color:#e6e6e6;
+			cursor:pointer;
+		}
+		#MEDIA {
+			background:#f2f2f2;
+			float:left;
+			width:50%;
+			display:inline-block;
+			position:relative;
+			height:500px;
+			z-index:9;
+		}
+		#MEDIA0 {
+			position:absolute;
+			margin-left:5%;
+			margin-top:25px;
+			width:90%;
+			background:#ebebeb;
+			height:400px;
+			z-index:-1;
+		}
+		.MEDIA1 {
+			color:#1e64ae;
+			padding:50px 25px 25px 0px;
+			margin-left:7%;
+			width:80%;
+			font-size:1.8em;
+		}
+		#MEDIA2 {
+			height:50px;
+			bottom:25px;
+			position:absolute;
+		}
+		.MEDIA21 {
+			color:#1e64ae;
+			background:#f2f2f2;
+			width:50px;
+			padding:12px 0px;
+			text-align:center;
+			border:1px solid rgba(28, 139, 176, 0.8); 
+			font-size:1.0em;
+			float:left;
+		}
+		.MEDIA21:hover {
+			background:#1e64ae;
+			color:white;
+			cursor:pointer;
+		}
+		.active2 {
+			background:#1e64ae;
+			color:#f2f2f2;
+		}
+		#MEDIA3 {
+			margin-left:9%;
+			float:left;
+			height:302px;
+			line-height:302px;
+		}
+		.SOC {
+			width:500px;
+			overflow:hidden;
+		}
+		#NEWS2 {
+			margin:auto;
+			border-radius:5px;
+			background:#f2f2f2;
+		}
+		.NEWS21 {
+			position:relative;
+			display:block;
+			height:60px;
+			line-height:60px;
+			top:0px;
+			font-size:1.0em;
+			background:#e4e4e4;
+			cursor:pointer;
+			color:#4d4d4d;
+			padding-left:12px;
+		}
+		.NEWS21 span {
+			float:right;
+			font-size:0.8em;
+			margin-right:12px;
+		}
+	</style>
 	</head>
-	<body class="homepage">
-
-		<!-- Header Wrapper -->
-			<div class="wrapper style1">
-			
+	<body class="homepage"><!-- Header Wrapper -->
+		<div class="wrapper style1">
+		
 			<!-- Header -->
-				<div id="header" style="position:fixed;z-index:10; ">
-					<div class="container" style="z-index:10">
-							
-						<!-- Logo -->
-						
-						<!-- Nav -->
-							<nav id="nav" style="z-index:10">
-								<ul >
-									<li class="active" id="index1"><a href="index.html">Home</a></li>
-									<li><a href="left-sidebar.html">Blog</a></li>
-									<li>
-										<a href="">Vehicle</a>
-										<ul>
-											<li>
-												<a href="">Competition Vehicles</a>
-												<ul>
-													<li><a href="#">Varun</a></li>
-													
-												</ul>
-											</li>
-											<li>
-												<a href="">Prototypes</a>
-												<ul>
-													<li><a href="#">Anahita 2.0</a></li>
-													<li><a href="#">Anahita 1.0</a></li>
-													
-												</ul>
-											</li>
+			<div id="header" style="position:fixed;z-index:10; ">
+				<div class="container" style="z-index:10">
+					<!-- Nav -->
+					<nav id="nav" style="z-index:10">
+						<ul >
+							<li class="active" id="index1"><a href="index.html">Home</a></li>
+							<li><a href="left-sidebar.html">Blog</a></li>
+							<li><a href="">Vehicle</a>
+								<ul>
+									<li><a href="">Competition Vehicles</a>
+										<ul><li><a href="#">Varun</a></li>
 										</ul>
 									</li>
-									<li><a href="right-sidebar.html">Sponsors</a></li>
-									<li>
-										<a href="">Team</a>
-										<ul>
-											<li><a href="#">2017-18</a></li>
-											<li>
-												<a href="">Alumni</a>
-												<ul>
-													<li><a href="#">2016-17</a></li>
-													<li><a href="#">2014-16</a></li>
-													
-												</ul>
-											</li>										</ul>
+									<li><a href="">Prototypes</a>
+										<ul><li><a href="#">Anahita 2.0</a></li>
+											<li><a href="#">Anahita 1.0</a></li>
+										</ul>
 									</li>
-									<li><a href="no-sidebar.html">Contact Us</a></li>
 								</ul>
-							</nav>
-	
-					</div>
+							</li>
+							<li><a href="right-sidebar.html">Sponsors</a></li>
+							<li><a href="">Team</a>
+								<ul>
+									<li><a href="#">2017-18</a></li>
+									<li>
+										<a href="">Alumni</a>
+										<ul><li><a href="#">2016-17</a></li>
+											<li><a href="#">2014-16</a></li>
+										</ul>
+									</li>										
+								</ul>
+							</li>
+							<li><a href="no-sidebar.html">Contact Us</a></li>
+						</ul>
+					</nav>
 				</div>
-				
-			<!-- Banner -->
-				<div id="banner">
-					<section class="container">
-						<img src="images/logo.jpg" alt="AUV IITK" style="width:304px;">
-						<span><b>AUTONOMOUS UNDERWATER VEHICLE</b></span>
-						<p>Indian Institute of Technology, Kanpur</p>
-					</section>
-				</div>
-
 			</div>
-		
-		<!-- Section One -->
-
-				<div class="wrapper style2">
-						<section class="container">
-							<div class="row double">
-								<div class="6u" style="position:relative;">
-									<header class="major" >
-										
-										<span  onclick="socmed1()" class="button" style="text-align:left;text-decoration:none;padding:5px;cursor:pointer;">Social Media</span>
-										<span onclick="news1()" class="button" style="text-align:left;text-decoration:none;padding:5px;cursor:pointer;">Latest News</span>
-										
-										<span class="byline" style="display:inline-block;padding:4px;">
-											<iframe id="socmed" class="SOC" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Froboclubiitkanpur%2F&tabs=timeline&width=750&height=400&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=167782130461571" width="750" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
-											</iframe>
-										</span>
-										<div id = "news" class="SOC" >
-											<div >Latest News</div>
-											<div >Latest News</div>
-											<div >Latest News</div>
-										</div>
-									</header>
-								</div>
-						<div class="6u" style="position:relative; right:5em; padding-right:0px;margin:0;width:50%;" >
-							<h3>About Us</h3>
-							<p>
-								With the constant need to push technologies to a new level, AUV- IITK aims to venture along the path to bring in innovative solutions and ideas in marine robotics by designing its own autonomous systems to perform tasks underwater, and inculcate interest in underwater robotics through participation in competitions.
-							</p>
-							<p>Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet strong network of people who are eagerly looking for a low- cost solution to large- scale problems. With its numbers only increasing every year, there are currently eighteen people, in total, who are looking over the mechanical, electrical and programming aspects of the project.</p>
-							<a href="#" class="button" >Know More</a>
-						</div>
-						</div>
-					</div>
+			
+			<!-- Banner -->
+			<div id="banner">
+				<section class="container" >
+					<img src="images/logo.jpg" alt="AUV IITK" style="width:304px;">
+					<span style="display:inline-block; background:rgba(30, 100, 174 ,0.8 );padding:5px;margin-bottom:5px; font-weight:600;">AUTONOMOUS UNDERWATER VEHICLE</span>
+					<span style="display:inline-block; padding:5px;background:rgba(30, 100, 174,0.8);font-size:1.45em;font-width:500; ">Indian Institute of Technology, Kanpur</span>
+					<p></p>
 				</section>
 			</div>
-
-	<!-- Footer -->
+		</div>
+		
+		<!--color gradients-->		
+		<!--first half-->
+		<div id="NEWS">
+			<div id="NEWS1"><b>ABOUT US</b></div>
+			<div style="text-align:justify; font-size:1.0em; margin-left:7%; width:80%;">
+				&emsp;&emsp;With the constant need to push technologies to a new level, AUV- IITK aims to venture along the path to bring in innovative solutions and ideas in marine robotics by designing its own autonomous systems to perform tasks underwater, and inculcate interest in underwater robotics through participation in competitions.<br>
+				&emsp;&emsp;Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet strong network of people who are eagerly looking for a low- cost solution to large- scale problems. With its numbers only increasing every year, there are currently eighteen people, in total, who are looking over the mechanical, electrical and programming aspects of the project.
+			</div>
+		</div>
+		<!--second half-->	
+		<div id="MEDIA">
+			<div id="MEDIA0"></div>
+			<div class="MEDIA1"><b>LATEST NEWS</b></div>
+			<div class="MEDIA1"><b><a href="https://www.facebook.com/roboclubiitkanpur/" style="color:inherit;text-decoration:none;">FOLLOW US ON SOCIAL MEDIA</a></b></div>
+			<div class="MEDIA1"><b><a href="https://www.youtube.com/channel/UCBaRXMUGSoJeHLFBMa0q7Vg" style="color:inherit;text-decoration:none;">SUBSCRIBE TO OUR CHANNEL</a></b></div>
+			<div id="MEDIA2">
+				<div class="MEDIA21 fa fa-edit" onclick="lanews()"></div>
+				<div class="MEDIA21 fa fa-facebook" onclick="fb1()"></div>
+				<div class="MEDIA21 fa fa-youtube" onclick="twit1()"></div>
+			</div>
+			<div id="MEDIA3">
+				<div class="SOC">
+					<div id="NEWS2" >
+						<div class="NEWS21" style="border-bottom:2px solid #dedede"><a href="" style="color:inherit; text-decoration:none;"><b>Facebook Page is now Live!</b><span><b>16/09/2017</b></span></a></div>
+						<div class="NEWS21" style="border-bottom:2px solid #dedede"><a href="" style="color:inherit; text-decoration:none;"><b>Proposal submitted for Vishwajeet Scheme, MHRD</b><span><b>15/06/2017</b></span></a></div>
+						<div class="NEWS21" style="border-bottom:2px solid #dedede"><a href="" style="color:inherit; text-decoration:none;">Open Session for mini- projects in summers<span>10/04/2017</span></a></div>
+						<div class="NEWS21" style="border-bottom:2px solid #dedede"><a href="" style="color:inherit; text-decoration:none;">Recruitment Session for 2017 commences<span>05/02/2017</span></a></div>
+						<div class="NEWS21"><a href="" style="color:inherit; text-decoration:none;">First Runner's Up at NIOT-SAVe 2017<span>25/12/2017</span></a></div>
+					</div>
+				</div>
+				<div class="SOC">
+					<iframe id="fb" class="av_facebook_widget"  src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Froboclubiitkanpur%2F&tabs=timeline&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=167782130461571" width="500" height="300" scrolling="no" frameborder="0" allowTransparency="true" colorscheme="dark" style="float:left">
+					</iframe>
+				</div>
+				<div id = "twit" class="SOC">           
+					<iframe width="500" height="300" src="https://www.youtube.com/embed/it84HOE9bkI" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div> 
+			<!--<div id="NEWS3"><b>VIEW ALL</b></div>-->
+		</div>
+		
+		<!-- Footer -->
 		<div id="footer">
-			<section class="container">
-				<header class="major">
-					<h2>Connect with us</h2>
-					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-				</header>
-				<ul class="icons">
-					<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-					<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-				</ul>
-				<hr />
-			</section>
 			
 			<!-- Copyright -->
 				<div id="copyright">
-					Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+					&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
 				</div>			
 		</div>
-	<script>
-			document.getElementById("news").style.display = "none";
+		
+		<script>
+			var q;
+			q = window.innerWidth/4 - 75;
+			q += "px";
+			document.getElementById("MEDIA2").style.left = q;
 			var x = document.getElementsByClassName("SOC");
-			for(var i=0; i<x.length; i++)
+			var y = document.getElementsByClassName("MEDIA21");
+			var z = document.getElementsByClassName("MEDIA1");
+			for(var i=0; i<x.length; i++) {
 				x[i].style.display = "none";
+				z[i].style.display = "none";
+			}
+			y[0].className += " active2";
 			x[0].style.display = "block";
-			function socmed1() {
-				for(var i=0; i<x.length; i++)
+			z[0].style.display = "block";
+			document.getElementById("MEDIA3").style.height = "182px";
+			function lanews() {
+				for(var i=0; i<x.length; i++) {
 					x[i].style.display = "none";
-				
+					z[i].style.display = "none";
+				}
+				document.getElementById("MEDIA3").style.height = "182px";
 				x[0].style.display = "block";
+				y[0].className += " active2";
+				y[1].className = "MEDIA21 fa fa-facebook";
+				y[2].className = "MEDIA21 fa fa-youtube";
+				z[0].style.display = "block";
+				document.getElementById("NEWS3").style.display="block";
 			}
-			function news1() {
-				for(var i=0; i<x.length; i++)
+			function fb1() {
+				for(var i=0; i<x.length; i++) {
 					x[i].style.display = "none";
+					z[i].style.display = "none";
+				}
+				document.getElementById("MEDIA3").style.height = "240px";
 				x[1].style.display = "block";
+				y[1].className += " active2";
+				y[0].className = "MEDIA21 fa fa-edit";
+				y[2].className = "MEDIA21 fa fa-youtube";
+				z[1].style.display = "block";
+				document.getElementById("NEWS3").style.display="none";
 			}
-	</script>
+			function twit1() {
+				for(var i=0; i<x.length; i++) {
+					x[i].style.display = "none";
+					z[i].style.display = "none";
+				}
+				document.getElementById("MEDIA3").style.height = "240px";
+				x[2].style.display = "block";
+				y[2].className += " active2";
+				y[0].className = "MEDIA21 fa fa-edit";
+				y[1].className = "MEDIA21 fa fa-facebook";
+				z[2].style.display = "block";
+				document.getElementById("NEWS3").style.display="none";
+			}
+		</script>
 	</body>
 	
 </html>
