@@ -21,6 +21,7 @@
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/animate.css" /> 
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -31,8 +32,8 @@
 			<!-- Nav -->
 					<nav id="nav" style="z-index:10">
 						<ul >
-							<li id="LOGO1"class="active"><a href="index.html"><img id="LOGO" src="images/logo_b.png" alt="Home" height="33px" style="filter:brightness(100);padding-top:20px;padding-right:7px;padding-bottom:0;margin-bottom:0;"></a></li>
-							<li id="index1"><a href="index.html">Home</a></li>
+							<li id="LOGO1"class="active "><a href="index.html"><img id="LOGO" src="images/logo_b.png" alt="Home" height="33px" style="filter:brightness(100);padding-top:20px;padding-right:7px;padding-bottom:0;margin-bottom:0;"></a></li>
+							<li id="index1" ><a href="index.html">Home</a></li>
 							<li id="varun1" ><a href="varun.html">Vehicle</a>
 								<ul>
 									<li><a href="">Competition Vehicles</a>
@@ -45,7 +46,7 @@
 							<li><a href="teampage17.html">Team</a>
 
 								<ul>
-									<li><a href="teampage17.html">2017-18</a></li>								
+									<li><a href="teampage17.html">2017-18</a></li>
 								</ul>
 							</li>
 							<li><a href="contactpage.html">Contact Us</a></li>
@@ -53,19 +54,19 @@
 					</nav>
 				</div>
 			</div>
-			
+
 		<!-- Banner -->
 			<div id="banner">
-				<section class="container" >
-					<img src="images/logo.jpg" alt="AUV IITK" style="width:304px;"><br>
-					<span style="display:inline-block; background:rgba(67, 111, 157, 0.6);padding:5px;margin-bottom:3px;color:white;font-weight:700;font-size:1.6em;">AUTONOMOUS UNDERWATER VEHICLE</span><br>
-					<span style="display:inline-block; padding:3px;background:rgba(67, 111, 157, 0.6);color:white;font-weight:400;font-size:1.4em;">Indian Institute of Technology, Kanpur</span>
+				<section class="container " >
+					<img src="images/logo.jpg"class="animated rubberBand banner_logo" alt="AUV IITK" style="width:304px;"><br>
+					<span style="display:inline-block; background:rgba(67, 111, 157, 0.6);padding:5px;margin-bottom:3px;color:white;font-weight:700;font-size:1.6em;" class="animated bounceIn banner_auv">AUTONOMOUS UNDERWATER VEHICLE</span><br>
+					<span style="display:inline-block; padding:3px;background:rgba(67, 111, 157, 0.6);color:white;font-weight:400;font-size:1.4em;" class="animated lightSpeedIn banner_iitk">Indian Institute of Technology, Kanpur</span>
 					<p></p>
 				</section>
-			</div>
-			
+			</div> //added few classes to animate
+
 		</div>
-<!--main-->		
+<!--main-->
 		<div class="wrapper style2" style="padding-top:50px;margin-bottom:-10px;">
 			<section class="container">
 				<div class="row double">
@@ -95,7 +96,7 @@
 						<div class="SOC" style="text-align:center;background:#f9f9f9;overflow-x: scroll;">
 						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fauviitk&tabs=timeline&width=500&height=269&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="269" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 						</div>
-						<div id = "twit" class="SOC">           
+						<div id = "twit" class="SOC">
 							<iframe width="100%" height="286" src="https://www.youtube.com/embed/videoseries?list=PLMCgouOF_rduD-_N8gBqEeiYReQYJ4P3T" frameborder="0" allowfullscreen></iframe>
 						</div>
 						<div id="MEDIA2" style="text-align:center;">
@@ -105,22 +106,43 @@
 								<div class="MEDIA21 fa fa-youtube" onclick="twit1()"></div>
 							</div>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</section>
 		</div>
-		
+
 <!-- Footer -->
 		<div id="footer">
-			
+
 		<!-- Copyright -->
 				<div id="copyright">
 					&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
-				</div>			
+				</div>
 		</div>
-		
+
+		<style>
+		//classes to edit animations in banner
+					.banner_logo
+					{
+								animation-duration: 2s;
+								animation-delay: 1s;
+					}
+					.banner_auv
+					{
+								animation-delay:2s;
+					}
+					.banner_iitk
+					{
+								animation-delay:3s;
+					}
+
+
+					}
+		</style>
+
+
 		<script src="js/index.js"></script>
 		<script src="js/navBar.js"></script>
 	</body>
-	
+
 </html>
