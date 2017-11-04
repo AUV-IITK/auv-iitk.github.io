@@ -45,7 +45,7 @@ var Softteam=[];
 			github:"https://github.com/Abhi10arora",
 			CurrProject:"IMU (controls), Gazebo"
 		}
-		Softteam[1]={
+		Softteam[2]={
 			Name:"Arnav Garg",
 			Department: "Civil Engg.",
 			email: "arnavgar@iitk.ac.in",
@@ -54,7 +54,7 @@ var Softteam=[];
 			github:"https://github.com/garnav98",
 			CurrProject:"Controls/Motion planning"
 		}
-		Softteam[3]={
+		Softteam[4]={
 			Name:"Varun Pawar",
 			Department: "Mechanical Engg.",
 			email: "varunpwr@iitk.ac.in",
@@ -63,7 +63,7 @@ var Softteam=[];
 			github: "https://github.com/VarunPwr",
 			CurrProject:"Acoustic Localization using Hydrophone Array"
 		}
-		Softteam[2]={
+		Softteam[3]={
 			Name:"Suryash Agarwal",
 			Department: "Electrical Engg.",
 			email: "asurya@iitk.ac.in",
@@ -71,6 +71,24 @@ var Softteam=[];
 			facebook:"https://www.facebook.com/suryansh.agarwal.90",
 			github:"https://github.com/Suryansh470",
 			CurrProject:"Controls/Motion planning"
+		}
+		Softteam[1]={
+			Name:"Abhishek Saini",
+			Department: "Computer Science Engg.",
+			email: "abhisni@iitk.ac.in",
+			img1:"images/team_members/AbhiSaini.jpg",
+			facebook:"https://www.facebook.com/abhishekkirodiwa",
+			github:"https://github.com/abhisaini",
+			CurrProject:"GUI developement using Qt"
+		}
+		Softteam[5]={
+			Name:"Akash Kumar Singh",
+			Department: "Electrical Engg.",
+			email: "abhisni@iitk.ac.in",
+			img1:"images/team_members/akashkumar.jpg",
+			facebook:"https://www.facebook.com/ksakash04",
+			github:"https://github.com/ksakash",
+			CurrProject:"improving cv code"
 		}
 var Mechteam=[];
 		Mechteam[1]={
