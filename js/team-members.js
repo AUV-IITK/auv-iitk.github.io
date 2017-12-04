@@ -6,7 +6,7 @@ var SA=[];
 			img1:"images/team_members/Mayankm.jpg",
 			facebook:"https://www.facebook.com/mayankm.1596",
 			github:"https://github.com/Mayankm96",
-			CurrProject:"Team Management"
+			CurrProject:"Team Leader"
 		}
 		SA[1]={
 			Name:"Akash Jain",
@@ -15,7 +15,7 @@ var SA=[];
 			img1:"images/team_members/Akash.jpg",
 			facebook:"https://www.facebook.com/akashjain5396",
 			github:"https://github.com/akashjain5396",
-			CurrProject:"Team Management"
+			CurrProject:"Team Head"
 		}
 		SA[2]={
 			Name:"Manish Kumar",
@@ -24,7 +24,7 @@ var SA=[];
 			img1:"images/team_members/Manish.jpg",
 			facebook:"https://www.facebook.com/profile.php?id=100010275425218",
 			github:"#",
-			CurrProject:"Head Mechanical Sub-system"
+			CurrProject:"Mechanical Head"
 		}
 		SA[3]={
 			Name:"Rithvik Patibandla",
@@ -33,7 +33,7 @@ var SA=[];
 			img1:"images/team_members/Rithvik.jpg",
 			facebook:"https://www.facebook.com/rithvik.patibandla",
 			github:"https://github.com/rithvikp1998",
-			CurrProject:"Team Management"
+			CurrProject:"Electrical Head"
 		}
 var Softteam=[];
 		Softteam[0]={
@@ -45,7 +45,7 @@ var Softteam=[];
 			github:"https://github.com/Abhi10arora",
 			CurrProject:"IMU (controls), Gazebo"
 		}
-		Softteam[1]={
+		Softteam[2]={
 			Name:"Arnav Garg",
 			Department: "Civil Engg.",
 			email: "arnavgar@iitk.ac.in",
@@ -54,16 +54,16 @@ var Softteam=[];
 			github:"https://github.com/garnav98",
 			CurrProject:"Controls/Motion planning"
 		}
-		Softteam[3]={
+		Softteam[4]={
 			Name:"Varun Pawar",
 			Department: "Mechanical Engg.",
 			email: "varunpwr@iitk.ac.in",
 			img1:"images/team_members/VarunPawar1.jpg",
 			facebook:"https://www.facebook.com/varun.pawar.96387",
 			github: "https://github.com/VarunPwr",
-			CurrProject:"Acoustic Localization using Hydrophone Array"
+			CurrProject:"Acoustics"
 		}
-		Softteam[2]={
+		Softteam[3]={
 			Name:"Suryash Agarwal",
 			Department: "Electrical Engg.",
 			email: "asurya@iitk.ac.in",
@@ -71,6 +71,24 @@ var Softteam=[];
 			facebook:"https://www.facebook.com/suryansh.agarwal.90",
 			github:"https://github.com/Suryansh470",
 			CurrProject:"Controls/Motion planning"
+		}
+		Softteam[1]={
+			Name:"Abhishek Saini",
+			Department: "Computer Science Engg.",
+			email: "abhisni@iitk.ac.in",
+			img1:"images/team_members/AbhiSaini.jpg",
+			facebook:"https://www.facebook.com/abhishekkirodiwal?ref=br_rs",
+			github:"https://github.com/abhisaini",
+			CurrProject:"GUI developement-(QT)"
+		}
+		Softteam[5]={
+			Name:"Akash Kumar Singh",
+			Department: "Electrical Engg.",
+			email: "abhisni@iitk.ac.in",
+			img1:"images/team_members/akashkumar.jpg",
+			facebook:"https://www.facebook.com/ksakash04",
+			github:"https://github.com/ksakash",
+			CurrProject:"Image Processing"
 		}
 var Mechteam=[];
 		Mechteam[1]={
@@ -89,7 +107,7 @@ var Mechteam=[];
 			img1:"images/team_members/MaheshSaboo1.jpg",
 			facebook:"https://www.facebook.com/mssaboo",
 			github:"https://github.com/mssaboo",
-			CurrProject:"Torpedo Designing And Operation of Pneumatic System"
+			CurrProject:"Pneumatics"
 		}
 		Mechteam[3]={
 			Name:"Naveen Chandra R",
@@ -98,7 +116,7 @@ var Mechteam=[];
 			img1:"images/team_members/NaveenChandra1.png",
 			facebook:" https://www.facebook.com/profile.php?id=100002998274447",
 			github:"https://github.com/NaveenchandraR",
-			CurrProject:"Design Of New Vehicle and Acoustic source localisation"
+			CurrProject:"Design Of New Vehicle and Acoustics"
 		}
 		Mechteam[0]={
 			Name:"Anand Gandhi",
