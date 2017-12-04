@@ -1,26 +1,26 @@
-var x2 = document.getElementById("index1");
-var x3 = document.getElementById("LOGO1");
+var x3 = document.getElementById("LOGO");
+var x2 = document.getElementById("logo");
+var x1 = document.getElementById("index1")
+
 if(window.innerWidth > 856) {
 	x2.style.display = "none";
 	x3.style.display="inline";
+	x1.style.display="none";
 }
 else {
 	x2.style.display = "inline";
 	x3.style.display = "none";
+	x1.style.display = "inline";
 }
-window.onscroll = function() {myF()};
-function myF() {
+$( window ).resize(function(){
 	if(window.innerWidth > 856) {
 		x2.style.display = "none";
-		x3.style.display="inline";
+		x3.style.display = "inline";
+		x1.style.display = "none";
 	}
 	else {
 		x2.style.display = "inline";
 		x3.style.display = "none";
+		x1.style.display = "inline";
 	}
-	var y = document.getElementById("header");
-		if(window.pageYOffset >= 30)
- 			y.style.background = "rgba(0, 0, 0, 1.0)";
- 		else 
- 			y.style.background = "rgba(0, 0, 0, 0.7)";
-}
+});

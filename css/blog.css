@@ -1,0 +1,22 @@
+
+		#LOGO:hover {
+			filter:brightness(100);
+		}
+		#header {
+			position:fixed;
+			z-index:10;
+			background:black;
+		}
+		#headingForBlog {
+			font-size:2.4em;
+			color:#333333;
+			margin-bottom:20px;
+		}
+		#headingForBlog:hover {
+			color:darkblue;
+		}
+		#mainHeader {
+			background-color:#154b83;
+			padding-bottom:0px;
+			padding-bottom:30px;
+		}

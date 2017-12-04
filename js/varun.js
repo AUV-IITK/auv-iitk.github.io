@@ -1,33 +1,20 @@
-
-			var x1 = document.getElementById("stic");
-			var x2 = document.getElementById("index1");
-			var x3 = document.getElementById("LOGO1");
-			var x4 = document.getElementById("v1");
-			var x5 = document.getElementById("v2");
-			var x6 = document.getElementById("v3");
+//position of Nav bar 2 w.r.t screen size
+			var s1 = document.getElementById("stic");
 			if(window.innerWidth > 856) {  //for displaying icon on desktop and "HOME" on tabs
-				x1.style.top = "58px";
-				x2.style.display = "none";
-				x3.style.display="inline";
+				s1.style.top = "58px";
 			}
 			else {
-				x1.style.top = "42px";
-				x2.style.display = "inline";
-				x3.style.display = "none";
+				s1.style.top = "42px";
 			}
 			$( window ).resize(function() {
 				if(window.innerWidth > 856) {  //for displaying icon on desktop and "HOME" on tabs
-					x1.style.top = "58px";
-					x2.style.display = "none";
-					x3.style.display="inline";
+					s1.style.top = "58px";
 				}
 				else {
-					x1.style.top = "42px";
-					x2.style.display = "inline";
-					x3.style.display = "none";
+					s1.style.top = "42px";
 				}
 			});
-
+//smooth scroll for Nav bar 2
 			$(document).ready(function() {
 				$("#part2").click(function() {
 					$("body,html").animate(
@@ -49,7 +36,9 @@
 					);  //how fast the scrolling animation will be in miliseconds
 				});
 			});
-			var y1 = document.getElementsByClassName("button1");  //changing navigation of varun in phone
+
+//changing Nav bar 2 values w.r.t screen size
+			var y1 = document.getElementsByClassName("button1");  
 			if(window.innerWidth >= 480) {
 				y1[0].innerHTML = "Mechanical Subsystem";
 				y1[1].innerHTML = "Software Subsystem";
@@ -72,3 +61,6 @@
 					y1[2].innerHTML = "Electrical";
 				}
 			});
+
+//color change in Nav bar element
+document.getElementById("varun1").style.color = "white";

@@ -81,3 +81,6 @@
 		a.linked:hover {
 			text-decoration: underline !important;
 		}
+		#LOGO {
+			filter:brightness(100);
+		}

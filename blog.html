@@ -1,272 +1,63 @@
 ---
 ---
 <!DOCTYPE HTML>
-<!--
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
-		<title>AUVIITK | Blog</title>
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo1.ico" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<style>
-		.dash {
-			width:100%;
-			height:3px;
-			background:#7c7cde;
-			margin-top:-3px;
-			border-radius:5px;
-		}
-		.auvMech {
-			display: inline-block;
-			margin: 0px 0px 15px 0px;
-			width:49%;
-		}
-		.button1 {
-			padding:10px 15px;
-			display:inline-block;
-			margin-top:3px;
-			margin-bottom:3px;
-			background:#123e6d;
-			color:aqua;
-			cursor:pointer;
-			font-size:1.1em;
-			text-decoration:none;
-			font-weight:500;
-			text-transform:uppercase;
-		}
-		.button1:hover {
-			background:#1a7999;
-		}
-		#stic {
-			position:sticky;
-			background:#123e6d;
-			width:100%;
-			padding-bottom:0;
-			margin-bottom:0;
-			text-align:center;
-			top:44px;
-		}
-		.button3 {
-			padding:10px 15px;
-			display:inline-block;
-			margin-left:2%;
-			margin-bottom:5px;
-			background:#1a7999;
-			color:white;
-			cursor:pointer;
-			font-size:1.1em;
-			text-decoration:none;
-			font-weight:500;
-		}
-		.button3:hover {
-			background:#0E9DAF;
-			color:white;
-		}
-		.button:hover {
-			background:#1a0c5a;
-		}
-		.picCom {
-			clear:left;
-			margin:0 0 30px 0;
-			padding:0;
-			text-align:center;
-			color:white;
-			font-size:1.0em;
-			font-weight:500;
-		}
-		.mDesc {
-			clear:left;
-			color:#0fa5d7;
-			margin-left:3%;
-			margin-right:3%;
-			text-align:justify;
-		}
-		#overlay {
-			position: fixed;
-			display: none;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background-color: rgba(0,0,0,0.7);
-			z-index: 20;
-			cursor: pointer;
-		}
-		.byline {
-			font-size:1.2em !important;
-		}
-		header.major .byline {
-			list-style-type:disc;
-		}
-		#LOGO:hover {
-			filter:brightness(100);
-		}
-		#header {
-			position:fixed;
-			z-index:10;
-			background:black;
-		}
-		</style>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		{% include header.html %}
+		<link rel="stylesheet" href="/css/blog.css" />
 	</head>
+
 	<body>
-		<div class="wrapper style1" id="ws1">
-
-			<!-- Header -->
-			<div id="header">
-				<div class="container" style="z-index:10">
-
-					<nav id="nav" style="z-index:10">
-						<ul >
-							<li id="index1"><a href="index.html">Home</a></li>
-							<li id="LOGO1"><a href="index.html"><img id="LOGO" src="images/logo_b.png" alt="Home" height="33px" style="padding-top:20px;padding-right:7px;padding-bottom:0;margin-bottom:0;"></a></li>
-							<li><a href="">Blog</a></li>
-							<li class="active" ID="varun1" style="color:white"><a href="varun.html">Vehicle</a>
-								<ul>
-									<li><a href="">Competition Vehicles</a>
-										<ul><li><a href="">Varun</a></li>
-										</ul>
-									</li>
-									<li><a href="">Prototypes</a>
-										<ul><li><a href="#">Anahita 2.0</a></li>
-											<li><a href="#">Anahita 1.0</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="">Sponsors</a></li>
-							<li><a href="">Team</a>
-								<ul>
-									<li><a href="#">2017-18</a></li>
-									<li>
-										<a href="">Alumni</a>
-										<ul><li><a href="#">2016-17</a></li>
-											<li><a href="#">2014-16</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="">Contact Us</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+<!-- Navigation Bar -->
+		<div class="wrapper style1">
+			{% include nav.html %}
 		</div>
-		<div class="wrapper style3" id="v0" style="padding-bottom:0px;margin-bottom:0px;zoom:95%;">
-			<section class="container" >
-				<header class="major">
-					<h2 style="font-size:5em; padding-top:0px;padding-bottom:0px;margin-bottom:0px;">BLOGS</h2>
-				</header>
-				<p style="font-size:1.6em;margin-bottom:20px;">An Informative Forum by AUV Team</p>
+
+<!-- Heading -->
+		<div class="wrapper style3">
+				<section class="container" >
+					<header class="major">
+						<h2 style="font-size: 7em; margin-bottom: 0.2em; margin-top:0.2em; ">BLOG</h2>
+					</header>
+					<p style="margin-bottom: 0px; font-size: 2.4em;  ">- by AUV, IITK</p>
+					</section>
+			</div>
+
+<!-- Blog Posts -->
+		<div class="wrapper style4">
+			<section class="container">
+				<div class="row flush">
+					<div class = "1u">
+						<p></p>
+					</div>
+					<div class = "8u" style="text-align: justify;">
+						<ul>
+							<li>
+								{% for post in site.posts %}
+								<p style="color:darkblue; margin-bottom:5px;font-weight:500;">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+								<a style="text-decoration:none;" href="{{ post.url }}">
+									<h3 id="headingForBlog">
+										{{ post.title }}
+									</h3>
+									{% if post.section %}
+									<span style="color:#333333;font-size:1.2em;text-decoration:none;font-weight:400;">
+										{{ post.section }} ...
+									</span>
+									{% endif %}
+								</a>
+								<hr><hr>
+								{% endfor %}
+								<hr>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</section>
 		</div>
-		<div class="wrapper style3" style="background:#f2f2f2;">
-
-		{% for post in site.posts %}
-			<section class="container" style="background:#e6e6e6;">
-			<a href="{{ post.url }}">
-				<header class="major">
-				<h2 style="color:darkgreen;background:#d2d2d2;text-align:center; margin:auto;padding:10px;">
-					{{ post.title }}
-				</h2>
-				{% if post.subtitle %}
-				<h3>
-					{{ post.subtitle }}
-				</h3>
-				{% endif %}
-			</header>
-			</a>
-			<p style="color:darkgreen">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-		</section>
-		<hr>
-		{% endfor %}
-	</div>
 
 <!-- Footer -->
-		<div id="footer">
-			<section class="container">
-				<ul class="icons">
-					<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
-					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
-					<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
-					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
-				</ul>
-				<hr />
-			</section>
-
-			<!-- Copyright -->
-				<div id="copyright">
-					&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
-				</div>
-		</div>
-		<script>
-			var x1 = document.getElementById("stic");
-			var x2 = document.getElementById("index1");
-			var x3 = document.getElementById("LOGO1");
-			if(window.innerWidth > 856) {
-				x1.style.top = "59px";
-				x2.style.display = "none";
-				x3.style.display="inline";
-			}
-			else {
-				x1.style.top = "43px";
-				x2.style.display = "inline";
-				x3.style.display = "none";
-			}
-
-			window.onscroll = function() {myF()};
-			function myF() {
-				if(window.innerWidth > 856) {
-					x1.style.top = "59px";
-					x2.style.display = "none";
-					x3.style.display="inline";
-				}
-				else {
-					x1.style.top = "43px";
-					x2.style.display = "inline";
-					x3.style.display = "none";
-				}
-			}
-			$(document).ready(function() {
-				$("#part2").click(function() {
-					$("body,html").animate(
-						{scrollTop :   $("#v1").offset().top - 50}, 400
-					);  //how fast the scrolling animation will be in miliseconds
-				});
-			});
-			$(document).ready(function() {
-				$("#part3").click(function() {
-					$("body,html").animate(
-						{scrollTop :   $("#v2").offset().top - 50}, 400
-					);  //how fast the scrolling animation will be in miliseconds
-				});
-			});
-			$(document).ready(function() {
-				$("#part4").click(function() {
-					$("body,html").animate(
-						{scrollTop :   $("#v3").offset().top - 50}, 400
-					);  //how fast the scrolling animation will be in miliseconds
-				});
-			});
-		</script>
-		<script src="js/navBar.js"></script>
+		 {% include footer.html %}
+		 <script src="/js/blog.js"></script>
 	</body>
 </html>

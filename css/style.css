@@ -556,7 +556,7 @@
 	#header {
 		color: #5680e9;
 		height: 4em;
-		background:rgba(0, 0, 0, 0.7);
+		background:rgba(0, 0, 0, 1);
 		width:100%;
 		font-weight:400;
 	}

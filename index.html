@@ -1,138 +1,85 @@
+---
+---
 <!DOCTYPE HTML>
-<!--
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 
-<head>
-	<title>AUVIITK</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo1.ico" />
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.dropotron.min.js"></script>
-	<script src="js/skel.min.js"></script>
-	<script src="js/skel-layers.min.js"></script>
-	<script src="js/init.js"></script>
-	<noscript>
-		<link rel="stylesheet" href="css/skel.css" />
- 		<link rel="stylesheet" href="css/style.css" />
-	</noscript>
-	<link rel="stylesheet" href="css/index.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-</head>
+	<head>
+		{% include header.html %}
+		<link rel="stylesheet" href="/css/index.css" />
+	</head>
 
-<body class="homepage">
+	<body class="homepage">
 
 <!--Navigation bar-->
-	<div class="wrapper style1">
-		<!-- Header -->
-		<div id="header" style="position:fixed;z-index:10; ">
-			<div class="container" style="z-index:10">
-				<!-- Nav -->
-				<nav id="nav" style="z-index:10">
-					<ul>
-						<li id="LOGO1" class="active"><a href="index.html"><img id="LOGO" src="images/logo_b.png" alt="Home" height="33px" style="filter:brightness(100);padding-top:20px;padding-right:7px;padding-bottom:0;margin-bottom:0;"></a></li>
-						<li id="index1"><a href="index.html">Home</a></li>
-						<li id="varun1"><a href="varun.html">Vehicle</a>
-							<ul>
-								<li><a href="">Competition Vehicles</a>
-									<ul>
-										<li><a href="varun.html">Varun</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-
-						<li><a href="teampage17.html">Team</a>
-
-							<ul>
-								<li><a href="teampage17.html">2017-18</a></li>
-
-							</ul>
-						</li>
-						<li><a href="contactpage.html">Contact Us</a></li>
-					</ul>
-				</nav>
-			</div>
+		<div class="wrapper style1">
+			{% include nav.html %}
+			{% include banner.html %}
 		</div>
 
-<!-- Banner -->
-		<div id="banner">
+<!-- Main -->
+		<div class="wrapper style2" id="ws2" style="margin-bottom:-10px;background:#f2f2f2">
 			<section class="container">
-				<img src="images/logo.jpg" alt="AUV IITK" style="width:304px;"><br>
-				<span style="display:inline-block; background:rgba(67, 111, 157, 0.6);padding:5px;margin-bottom:3px;color:white;font-weight:700;font-size:1.6em;">AUTONOMOUS UNDERWATER VEHICLE</span><br>
-				<span style="display:inline-block; padding:3px;background:rgba(67, 111, 157, 0.6);color:white;font-weight:400;font-size:1.4em;">Indian Institute of Technology, Kanpur</span>
-				<p></p>
+				<div class="row double">
+	<!-- About Us -->
+					<div class="6u" style="padding-left:100px;padding-right:10px;">
+						<h2 id="NEWS1" style="margin-bottom:15px;"><b>ABOUT US</b></h2>
+						<p style="text-align:justify; font-size:0.97em; line-height:1.7; font-weight:400; color:#2d2d2d;">
+							&emsp;&emsp;With the constant need to push technologies to a new level, AUV- IITK aims to venture along the path to bring in innovative solutions and ideas in marine robotics by designing its own autonomous systems to perform tasks underwater, and inculcate
+							interest in underwater robotics through participation in competitions.<br> &emsp;&emsp;Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet
+							strong network of people who are eagerly looking for a low- cost solution to large- scale problems. With its numbers only increasing every year, there are currently eighteen people, in total, who are looking over the mechanical, electrical and programming
+							aspects of the project.
+						</p>
+					</div>
+	<!-- Latest News | Facebook Page | Youtube Channel -->
+					<div class="6u" style="padding-right:15px;">
+						<h2 class="MEDIA1" style="margin-bottom:20px;">LATEST NEWS</h2>
+						<div class="MEDIA1"><b><a href="https://www.facebook.com/auviitk/" style="color:inherit;text-decoration:none;">FOLLOW US ON SOCIAL MEDIA</a></b></div>
+						<div class="MEDIA1"><b><a href="https://www.youtube.com/channel/UCBaRXMUGSoJeHLFBMa0q7Vg" style="color:inherit;text-decoration:none;">SUBSCRIBE TO OUR CHANNEL</a></b></div>
+						<div class="SOC" style="height:265px;overflow-y:scroll;">
+							<div id="NEWS2">
+								<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/auviitk/photos/a.2014396085446448.1073741828.1932876880265036/2034797570072966/?type=3" target="_blank" style="color:inherit; text-decoration:none;"><span><b>03/11/2017</b></span><b><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> Recruitment Test at 8 pm, L16 </b></a></p>
+								<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="documents/recruitment/recruitment.pdf" target="_blank" style="target-new:tab; color:inherit; text-decoration:none;"><span><b>08/10/2017</b></span><b><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> First Recruitment Lecture at L16 (CLICK for SLIDES)</b></a></p>
+								<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/auviitk/" target="_blank" style="color:inherit; text-decoration:none;"><span><b>16/09/2017</b></span><b><i class="fa fa-facebook-square ICONS" aria-hidden="true"></i> &nbsp;&nbsp;Facebook Page is now Live!</b></a></p>
+								<p class="NEWS21" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="nolink" href="" style="color:inherit; text-decoration:none;"><span><b>15/06/2017</b></span><b><i class="fa fa-bookmark ICONS" aria-hidden="true"></i> &nbsp;&nbsp;Proposal submitted for Vishwajeet Scheme, MHRD</b></a></p>
+								<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/sntiitk/photos/a.200904643352333.39927.187308721378592/1140985332677588/?type=3" target="_blank" style="color:inherit; text-decoration:none;"><span>10/04/2017</span><i class="fa fa-wrench ICONS" aria-hidden="true" ></i> &nbsp;Open Session for mini- projects in summers</a></p>
+								<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://raw.githubusercontent.com/AUV-IITK/AUVWiki/master/docs/recruitment.pdf" style="color:inherit; text-decoration:none;"><span>05/02/2017</span><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> Recruitment Session for 2017 commences</a></p>
+								<p class="NEWS21 HOVR"><a class="linked" href="http://www.niot.res.in/SAVe/" target="_blank" style="color:inherit; text-decoration:none;"><span>25/12/2017</span><i class="fa fa-trophy ICONS" aria-hidden="true"></i> &nbsp;First Runner's Up at NIOT-SAVe 2017</a></p>
+							</div>
+						</div>
+						<div class="SOC" style="text-align:center;background:#f9f9f9;overflow-x: scroll;">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fauviitk&tabs=timeline&width=500&height=245&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="245" style="border:none;overflow:hidden"
+							  scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+						<div id="twit" class="SOC">
+							<iframe width="100%" height="260" src="https://www.youtube.com/embed/videoseries?list=PLMCgouOF_rduD-_N8gBqEeiYReQYJ4P3T" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div id="MEDIA2" style="text-align:center;">
+							<div style="width:150px;display:inline-block;">
+								<div class="MEDIA21 fa fa-edit" onclick="lanews()"></div>
+								<div class="MEDIA21 fa fa-facebook" onclick="fb1()"></div>
+								<div class="MEDIA21 fa fa-youtube" onclick="twit1()"></div>
+							</div>
+						</div>
+					</div>
+
+				</div>
 			</section>
 		</div>
 
-	</div>
-<!--main-->
-	<div class="wrapper style2" id="ws2" style="margin-bottom:-10px;background:#f2f2f2">
-		<section class="container">
-			<div class="row double">
-<!--About Us -->
-				<div class="6u" style="padding-left:100px;padding-right:10px;">
-					<h2 id="NEWS1" style="margin-bottom:15px;"><b>ABOUT US</b></h2>
-					<p style="text-align:justify; font-size:0.97em; line-height:1.7; font-weight:400; color:#2d2d2d;">
-						&emsp;&emsp;With the constant need to push technologies to a new level, AUV- IITK aims to venture along the path to bring in innovative solutions and ideas in marine robotics by designing its own autonomous systems to perform tasks underwater, and inculcate
-						interest in underwater robotics through participation in competitions.<br> &emsp;&emsp;Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet
-						strong network of people who are eagerly looking for a low- cost solution to large- scale problems. With its numbers only increasing every year, there are currently eighteen people, in total, who are looking over the mechanical, electrical and programming
-						aspects of the project.
-					</p>
-				</div>
-<!--NEWS -->
-				<div class="6u" style="padding-right:15px;">
-					<h2 class="MEDIA1" style="margin-bottom:20px;">LATEST NEWS</h2>
-					<div class="MEDIA1"><b><a href="https://www.facebook.com/auviitk/" style="color:inherit;text-decoration:none;">FOLLOW US ON SOCIAL MEDIA</a></b></div>
-					<div class="MEDIA1"><b><a href="https://www.youtube.com/channel/UCBaRXMUGSoJeHLFBMa0q7Vg" style="color:inherit;text-decoration:none;">SUBSCRIBE TO OUR CHANNEL</a></b></div>
-					<div class="SOC" style="height:265px;overflow-y:scroll;">
-						<div id="NEWS2">
-							<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/auviitk/photos/a.2014396085446448.1073741828.1932876880265036/2034797570072966/?type=3" target="_blank" style="color:inherit; text-decoration:none;"><span><b>03/11/2017</b></span><b><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> Recruitment Test at 8 pm, L16 </b></a></p>
-							<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="documents/recruitment/recruitment.pdf" target="_blank" style="target-new:tab; color:inherit; text-decoration:none;"><span><b>08/10/2017</b></span><b><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> First Recruitment Lecture at L16 (CLICK for SLIDES)</b></a></p>
-							<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/auviitk/" target="_blank" style="color:inherit; text-decoration:none;"><span><b>16/09/2017</b></span><b><i class="fa fa-facebook-square ICONS" aria-hidden="true"></i> &nbsp;&nbsp;Facebook Page is now Live!</b></a></p>
-							<p class="NEWS21" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="nolink" href="" style="color:inherit; text-decoration:none;"><span><b>15/06/2017</b></span><b><i class="fa fa-bookmark ICONS" aria-hidden="true"></i> &nbsp;&nbsp;Proposal submitted for Vishwajeet Scheme, MHRD</b></a></p>
-							<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://www.facebook.com/sntiitk/photos/a.200904643352333.39927.187308721378592/1140985332677588/?type=3" target="_blank" style="color:inherit; text-decoration:none;"><span>10/04/2017</span><i class="fa fa-wrench ICONS" aria-hidden="true" ></i> &nbsp;Open Session for mini- projects in summers</a></p>
-							<p class="NEWS21 HOVR" style="border-bottom:1px solid rgba(102, 102, 102, 0.2)"><a class="linked" href="https://raw.githubusercontent.com/AUV-IITK/AUVWiki/master/docs/recruitment.pdf" style="color:inherit; text-decoration:none;"><span>05/02/2017</span><i class="fa fa-graduation-cap ICONS" aria-hidden="true"></i> Recruitment Session for 2017 commences</a></p>
-							<p class="NEWS21 HOVR"><a class="linked" href="http://www.niot.res.in/SAVe/" target="_blank" style="color:inherit; text-decoration:none;"><span>25/12/2017</span><i class="fa fa-trophy ICONS" aria-hidden="true"></i> &nbsp;First Runner's Up at NIOT-SAVe 2017</a></p>
-						</div>
-					</div>
-					<div class="SOC" style="text-align:center;background:#f9f9f9;overflow-x: scroll;">
-						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fauviitk&tabs=timeline&width=500&height=245&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="245" style="border:none;overflow:hidden"
-						  scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-					</div>
-					<div id="twit" class="SOC">
-						<iframe width="100%" height="260" src="https://www.youtube.com/embed/videoseries?list=PLMCgouOF_rduD-_N8gBqEeiYReQYJ4P3T" frameborder="0" allowfullscreen></iframe>
-					</div>
-					<div id="MEDIA2" style="text-align:center;">
-						<div style="width:150px;display:inline-block;">
-							<div class="MEDIA21 fa fa-edit" onclick="lanews()"></div>
-							<div class="MEDIA21 fa fa-facebook" onclick="fb1()"></div>
-							<div class="MEDIA21 fa fa-youtube" onclick="twit1()"></div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section>
-	</div>
-
 <!-- Footer -->
-	<div id="footer">
-
-<!-- Copyright -->
-		<div id="copyright">
-			&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
+		<div id="footer">
+			<div id="copyright">
+				&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
+			</div>
 		</div>
-	</div>
 
-	<script src="js/index.js"></script>
-	<script src="js/navBar.js"></script>
-</body>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/jquery.dropotron.min.js"></script>
+		<script src="/js/skel.min.js"></script>
+		<script src="/js/skel-layers.min.js"></script>
+		<script src="/js/init.js"></script>
+		<script src="/js/index.js"></script>
+		<script src="/js/navBar.js"></script>
+	</body>
 
 </html>

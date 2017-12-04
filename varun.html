@@ -1,71 +1,21 @@
+---
+---
 <!DOCTYPE HTML>
-<!--
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
+
 	<head>
-
-		<title>AUVIITK | Varun</title>
-		<link rel="shortcut icon" type="image/x-icon" href="images/logo1.ico" />
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="varun, auv, iitk" />
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<link rel="stylesheet" href="css/varun.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		{% include header.html %}
+		<link rel="stylesheet" href="/css/varun.css" />
 	</head>
+
 	<body>
+
+<!-- Navigation bar -->
 		<div class="wrapper style1" id="ws1">
-
-			<!-- Header -->
-			<div id="header">
-
-
-				<div class="container" style="z-index:10">
-
-					<nav id="nav" style="z-index:10">
-
-
-						<ul >
-							<li id="LOGO1"><a href="index.html"><img id="LOGO" src="images/logo_b.png" alt="Home" height="33px" style="padding-top:20px;padding-right:7px;padding-bottom:0;margin-bottom:0;"></a></li>
-							<li id="index1"><a href="index.html">Home</a></li>
-							<li class="active" id="varun1" style="color:white"><a href="varun.html">Vehicle</a>
-
-
-
-								<ul>
-									<li><a href="">Competition Vehicles</a>
-										<ul><li><a href="varun.html">Varun</a></li>
-										</ul>
-									</li>
-
-								</ul>
-							</li>
-
-							<li><a href="teampage17.html">Team</a>
-								<ul>
-									<li><a href="teampage17.html">2017-18</a></li>
-
-								</ul>
-							</li>
-							<li><a href="contactpage.html">Contact Us</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
+			{% include nav.html %}
 		</div>
+
+<!-- Heading -->
 		<div class="wrapper style3" id="v0" style="padding-bottom:0px;margin-bottom:0px;zoom:95%;">
 			<section class="container" >
 				<header class="major">
@@ -74,7 +24,7 @@
 				<p style="font-size:1.6em;margin-bottom:0px;">The God of the Oceans</p>
 			</section>
 		</div>
-<!--Varun's Navigation-->
+<!-- Navigation bar 2-->
 		<div class="stick" id="stic" style="z-index:9">
 				<a id="part2" class="button1" >Mechanical Subsystem</a>
 				<a id="part4" class="button1">Software Subsystem</a>
@@ -85,8 +35,9 @@
 			<section class="container">
 				<div class="row double">
 					<div class="5u">
+
 						<header class="major" style="text-align:left !important;font-weight:400;height:350px; background:rgba(37, 124, 218, 0.3); vertical-align: middle;padding-left:34px; padding-right:12px;display: table-cell">
-							<h2 style="font-size:2.0em;font-weight:700; margin-bottom:10px; padding:5px 5px 0px 10px;text-transform:uppercase;">Key Aspects</h2>
+							<h2 style="font-size:2.0em;font-weight:700; margin-bottom:10px; padding:5px 5px 0px 10px;text-transform:uppercase;margin-left:-34px;">Key Aspects</h2>
 							<ul class="list">
 								<li class="byline"><b>Modular design</b> for easy assembly and installation</li>
 								<li class="byline">Staging vehicle to carry out experiments</li>
@@ -115,19 +66,23 @@
 			</section>
 		</div>
 <!-- 2 -->
-		<div id = "mechanical" class="subTeam" style="background:#e6eeff;">&emsp;</div>
-		<div class="wrapper style2" id="v1" style="zoom:90%;background:#e6eeff; color:#14669C;padding:50px 0px 0px 0px;">
+		<div id = "mechanical" class="subTeam" style="background:#f2f2f2;">&emsp;</div>
+
+		<div class="wrapper style2" id="v1" style="zoom:95%;background:#f2f2f2; color:#0086b3;padding:0px;">
 			<section class="container">
 				<div class="row double">
 					<div class="7u">
-						<div style="margin:auto; display:inline-block; text-align:center; width:100%;">
-							<img class="auvMech" style="width:100%;" src="images/varun/varun_labelled.png">
+						<div style="display:inline-block;">
+
+							<div style="margin:auto;text-align:center; width:80%;">
+								<img class="auvMech" style="width:100%;" src="images/varun/varun_labelled.png">
+							</div>
 						</div>
 						<p class="picCom" style="color:#14669C;"><a href="#" class="fa fa-angle-up" style="color:#14669C; text-decoration:none;"> </a> Exploded View of Varun</p>
 					</div>
 					<div class="5u">
-						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#e6eeff; height:500px; vertical-align: middle; display: table-cell">
-							<h2 style="font-weight:700;font-size:1.6em; padding-left:10px;text-transform:uppercase;">Mechanical Subsystem</h2>
+						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#f2f2f2; height:500px;padding-top:30px;">
+							<h2 style="color:#006080; font-weight:700;font-size:1.6em; padding-left:10px;text-transform:uppercase;margin-left:-34px;">Mechanical Subsystem</h2>
 							<ul class="list">
 								<li class="byline">Five degrees of freedom</li>
 								<li class="byline">Weigth of 44.5 kg with +1% buoyancy</li>
@@ -143,13 +98,14 @@
 		</div>
 
 <!-- 3 -->
-		<div id = "software" class="subTeam" style="background:#99ccff;">&emsp;</div>
-		<div class="wrapper style2" id="v3" style="zoom:90%;background:#99ccff; color:#0059b3;padding:50px 0px 10px 0px;">
+		<div id = "software" class="subTeam" style="background:#b3d9ff;">&emsp;</div>
+
+		<div class="wrapper style2" id="v3" style="zoom:95%;background:#b3d9ff; color:#0086b3;padding:0px;">
 			<section class="container">
 				<div class="row double">
 					<div class="6u" >
-						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#99ccff; height:400px; vertical-align: middle; display:table-cell;" >
-							<h2 style="font-weight:700;font-size:1.6em; padding-left:10px;text-transform:uppercase;">Software Subsystem</h2>
+						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#b3d9ff; height:400px; padding-top:30px;" >
+							<h2 style="color:#006080;font-weight:700;font-size:1.6em; padding-left:10px;text-transform:uppercase;margin-left:-34px;">Software Subsystem</h2>
 							<ul class="list">
 								<li class="byline">System integration through ROS on Ubuntu 14.04</li>
 								<li class="byline">Simulation through Gazebo to optimize testing time</li>
@@ -161,8 +117,11 @@
 						</header>
 					</div>
 					<div class="6u">
-						<div style="margin:auto; display:inline-block; text-align:center; width:100%;">
-							<img class="auvMech" style="width:100%;" src="images/varun/software_logos.png">
+						<div style="display:inline-block">
+
+							<div style="margin:auto;text-align:center; width:80%;">
+								<img class="auvMech" style="width:100%;" src="images/varun/software_logos.png">
+							</div>
 						</div>
 						<p class="picCom" style="color:#0059b3;" ><a href="#" class="fa fa-angle-up" style="color:#0059b3; text-decoration:none;"> </a> Frameworks in Varun's Code</p>
 					</div>
@@ -171,26 +130,27 @@
 		</div>
 
 <!-- 4 -->
-		<div id = "electrical" class="subTeam" style="background:#e6eeff;">&emsp;</div>
-		<div class="wrapper style2" id="v2" style="zoom:90%;background:#e6eeff; color: #14669C;padding:50px 0px 0px 0px; ">
+		<div id = "electrical" class="subTeam" style="background:#f2f2f2;">&emsp;</div>
+		<div class="wrapper style2" id="v2" style="zoom:90%;background:#f2f2f2; color:#0086b3;padding:0px; ">
 			<section class="container">
 				<div class="row double">
 					<div class="7u">
-						<div style="margin:auto; display:inline-block; text-align:center; width:100%;">
-							<img class="auvMech" style="width:100%;" src="images/varun/varun_power.png">
+						<div style="display: inline-block;">
+							<div style="margin:auto; text-align:center; width:80%;">
+								<img class="auvMech" style="width:100%;" src="images/varun/varun_power.png">
+							</div>
 						</div>
 						<p class="picCom" style="color:#14669C;"><a href="#" class="fa fa-angle-up" style="color:#14669C; text-decoration:none;"></a> Schematic Diagram of Power Distribution Board</p>
 					</div>
 					<div class="5u" >
-						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#e6eeff; height:500px; vertical-align: middle; display: table-cell">
-							<h2 style=" padding-left:10px;font-weight:700;font-size:1.6em;text-transform:uppercase;">Electrical Subsystem</h2>
+						<header class="major" style="text-align:left !important; padding-left:20px;font-weight:400;background:#f2f2f2; height:500px;padding-top:30px;">
+							<h2 style=" color:#006080;padding-left:10px;font-weight:700;font-size:1.6em;text-transform:uppercase;margin-left:-34px;">Electrical Subsystem</h2>
 							<ul class="list">
 								<li class="byline">Powered by four 3S Lithium-Polymer Batteries</li>
 								<li class="byline">Custom made power-distribution board with protection and monitoring circuits</li>
 								<li class="byline">Two Logitech C290 cameras for 1080p video feed</li>
 								<li class="byline">Bluerobotics Depth Sensor for precision depth</li>
 								<li class="byline">Intel NUC for high-processing power</li>
-								<li class="byline">NavStick Nanopilot for accurate heading</li>
 							</ul>
 						</header>
 					</div>
@@ -201,23 +161,8 @@
 		</div>
 
 <!-- Footer -->
-		<div id="footer">
-			<section class="container">
-				<ul class="icons">
-					<li class="active"><a href="https://www.facebook.com/auviitk/" class="fa fa-facebook" target="_blank"><span>Facebook</span></a></li>
-					<li><a href="https://github.com/AUV-IITK" class="fa fa-github" target="_blank"><span>Github</span></a></li>
-					<li><a href="https://www.youtube.com/channel/UCBaRXMUGSoJeHLFBMa0q7Vg" class="fa fa-youtube" target="_blank"><span>Youtube</span></a></li>
-					<li><address><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=iitkauv@gmail.com&su" class="fa fa-envelope" target="_blank"><span>Envelope</span></a></address></li>
-				</ul>
-				<hr />
-			</section>
-
-			<!-- Copyright -->
-				<div id="copyright">
-					&copy; Autonomous Underwater Vehicle Team, IIT Kanpur, 2015-2017
-				</div>
-		</div>
-		<script src="js/varun.js"></script>
-		<script src="js/navBar.js"></script>
+		{% include footer.html %}
+		<script src="/js/varun.js"></script>
+		<script src="/js/navBar.js"></script>
 	</body>
 </html>

@@ -1,8 +1,10 @@
 ---
+layout:     post
 title:      "Do You Really Need An i7"
 subtitle:   "Convincing people that your robot need more cpu power."
 date:       2016-03-30 4:17:00
 author:     "Shikher Verma"
+section:    "<b>When Raspberry Pi 2 and Odroid U3 fail you. What next ? Back to x64. </b><br>Initially Shikher thought that buying a low power armh processor was a very wise choice. Low power meant lower battery consumption so lighter batteries. Also single chip armh processors like Raspberry Pi and Odroid are"
 ---
 
 ## When Raspberry Pi 2 and Odroid U3 fail you. What next ? Back to x64.
