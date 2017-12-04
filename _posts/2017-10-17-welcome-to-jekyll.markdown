@@ -1,4 +1,4 @@
-  ---
+---
 layout: post
 title:  "Blogs, AUV IITK"
 date:   2017-10-30 20:04:33 +0530

@@ -8,7 +8,8 @@
 -->
 <html>
 	<head>
-		<title>Left Sidebar - Solarize by TEMPLATED</title>
+		<title>AUVIITK | Blog</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/logo1.ico" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -169,22 +170,35 @@
 				</div>
 			</div>
 		</div>
+		<div class="wrapper style3" id="v0" style="padding-bottom:0px;margin-bottom:0px;zoom:95%;">
+			<section class="container" >
+				<header class="major">
+					<h2 style="font-size:5em; padding-top:0px;padding-bottom:0px;margin-bottom:0px;">BLOGS</h2>
+				</header>
+				<p style="font-size:1.6em;margin-bottom:20px;">An Informative Forum by AUV Team</p>
+			</section>
+		</div>
+		<div class="wrapper style3" style="background:#f2f2f2;">
+
 		{% for post in site.posts %}
-		<div class="post-preview">
+			<section class="container" style="background:#e6e6e6;">
 			<a href="{{ post.url }}">
-				<h2 class="post-title">
+				<header class="major">
+				<h2 style="color:darkgreen;background:#d2d2d2;text-align:center; margin:auto;padding:10px;">
 					{{ post.title }}
 				</h2>
 				{% if post.subtitle %}
-				<h3 class="post-subtitle">
+				<h3>
 					{{ post.subtitle }}
 				</h3>
 				{% endif %}
+			</header>
 			</a>
-			<p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
-		</div>
+			<p style="color:darkgreen">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+		</section>
 		<hr>
 		{% endfor %}
+	</div>
 
 <!-- Footer -->
 		<div id="footer">
@@ -253,5 +267,6 @@
 				});
 			});
 		</script>
+		<script src="js/navBar.js"></script>
 	</body>
 </html>
