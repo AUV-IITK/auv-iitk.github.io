@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+    {{ partial "preloader.html" . }}
+
+    {{ partial "navigation.html" . }}
+
+    <section class="section section-bg about-2 padding-0" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-block">
+                        <div class="title text-center">
+                            <h2> {{ with .Site.Data.vehicle.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.team_index.headingSpan }} {{ . }} {{ end }}</span></h2>
+                            <div class="border-meghna"></div>
+                        </div> 
+                        {{with .Site.Data.team_index.description}} <p>{{ . }}</p> {{ end }}
+                        {{with .Site.Data.team_index.description2}} <p>{{ . }}</p> {{ end }}
+                        <div class="row">
+                            {{ range .Site.Data.team_index.aboutItem }}
+                            <div class="col-lg-6">
+                                <div class="media">
+                                    <div class="align-self-start mr-3">
+                                        {{with .icon}} <i class="{{ . }}"></i> {{ end }}
+                                    </div>
+                                    <div class="media-body">
+                                        {{with .title}} <h4 class="media-heading">{{ . }}</h4>{{ end }}
+                                        {{ with .content}} <p>{{ . }}</p> {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 padding-0 ">
+                    <img class="img-fluid" src="{{ .Site.Data.team_index.image | absURL}}" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "contact.html" . }}
+
+{{ end }}

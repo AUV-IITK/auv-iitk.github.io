@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+    {{ partial "preloader.html" . }}
+
+    {{ partial "navigation.html" . }}
+
+
+	<section id="varun" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    {{"<!-- section title -->" | safeHTML}}
+                    <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+                        <h2>{{ with .Site.Data.vehicle_detail.varun.title }} {{ . }} {{ end }}</h2>
+                        <div class="border-meghna"></div>
+                    </div>
+                </div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section section-bg about-2 padding-0" id="about">
+		<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-6 padding-0 ">
+								<img class="img-fluid" src="{{ .Site.Data.vehicle_detail.varun.image | absURL}}" alt="image">
+							<div class="content-block">
+								<div class="row">
+									{{ range .Site.Data.vehicle_detail.varun.features }}
+									<div class="col-lg-6">
+										<div class="media">
+											<div class="media-body">
+												 <h4 class="media-heading">{{ . }}</h4>
+											
+											</div>
+										</div>
+									</div>
+									{{ end }}
+								</div>
+							</div>
+							</div>	
+							{{ range .Site.Data.vehicle_detail.varun.subsystems }}
+							<div class="col-lg-6 padding-0 ">
+								<img class="img-fluid" src="{{ .imageSource | absURL}}" alt="image">
+							</div>
+							<div class="col-lg-6">
+								<div class="content-block">
+									{{with .title}} <h2>{{ . }}</h2> {{ end }}
+									<div class="row">
+										{{ range .features }}
+										<div class="col-lg-6">
+											<div class="media">
+												<div class="media-body">
+													 <h4 class="media-heading">{{ . }}</h4>
+												
+												</div>
+											</div>
+										</div>
+										{{ end }}
+									</div>
+								</div>
+							
+							</div>
+							{{ end }}
+						</div>
+					</div>
+				</section>
+				
+				
+
+{{ end }}
+
+
+
+

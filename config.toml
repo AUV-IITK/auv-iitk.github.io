@@ -4,7 +4,7 @@ DefaultContentLanguage = "en"
 title = "Team AUV-IITK"
 theme = "meghna-hugo"
 summaryLength = 10
-publishDir = "docs"
+
 [taxonomies]
   author = "author"
   category = "categories"
@@ -24,7 +24,7 @@ publishDir = "docs"
 
     [[menu.nav]]
     name = "Team"
-    URL = "our-team"
+    URL = "team-index"
     weight = 5
 
     [[menu.nav]]

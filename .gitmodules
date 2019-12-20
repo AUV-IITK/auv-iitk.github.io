@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/AUV-IITK/auv-iitk.github.io
+	branch = master

@@ -1,0 +1,45 @@
+title: Varun
+byline: The God of Oceans
+image: /images/anahita-1.jpg
+featuresTitle: Key Aspects
+features:
+  - <b>Modular design</b> for easy assembly and installation
+  - Staging vehicle to carry out experiments
+  - Intended for autonomous <b>underwater inspection and data collection </b>
+  - Upto <b>4 hours of continuous operation</b> capability
+  - Budget of Rs. 745,000
+vehicleModalIframeLink: https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed
+vehicleModalLink: https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f?utm_medium=embed&utm_source=website&utm_campain=share-popup
+vehicleModalCaption: VARUN by AUVIITK on Sketchfab
+reportTitle: Report of Varun
+reportLink: /assets/documents/vehicle/varun.pdf
+subsystems: 
+  - title: Mechanical Subsystem
+    features:
+      - Five degrees of freedom
+      - Weigth of 44.5 kg with +1% buoyancy
+      - Max coefficient of drag at 1.5 m/s 0.42
+      - Motion through 6 brushed-DC Seabotix thrusters
+      - Pneumatics actuation for torpedo shooting
+      - Fabricated using in-house manufacturing facilities
+    imageSource: images/varun/varun_labelled.png
+    imageCaption: Exploded View of Varun
+  - title: Electrical Subsystem
+    features:
+      - Powered by four 3S Lithium-Polymer Batteries
+      - Custom made power-distribution board with protection and monitoring circuits
+      - Two Logitech C290 cameras for 1080p video feed
+      - Bluerobotics Depth Sensor for precision depth
+      - Intel NUC for high-processing power
+    imageSource: images/varun/varun_power.png
+    imageCaption: Schematic Diagram of Power Distribution Board
+  - title: Software Subsystem
+    features:
+      - System integration through ROS on Ubuntu 14.04
+      - Simulation through Gazebo to optimize testing time
+      - Image processing to perform vision-based tasks
+      - Navigation through dead-reckoning sensors
+      - GUI enabled control for debugging
+      - Code available on GitHub with documentation under BSD-3 License Clause
+    imageSource: images/varun/software_logos.png
+    imageCaption: Frameworks in Varun's Code
