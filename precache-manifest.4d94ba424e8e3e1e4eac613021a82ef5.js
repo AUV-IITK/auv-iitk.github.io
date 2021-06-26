@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "201efce9fe4ca4c8d3875dd3be9134fd",
+    "revision": "ff391a7ffa3ab5c4acecbf4af38d4751",
     "url": "/index.html"
   },
   {
-    "revision": "4db57e1e03c55e69e04c",
+    "revision": "8b8a7b6c519c4f72eda2",
     "url": "/static/css/2.ad93fd0c.chunk.css"
   },
   {
-    "revision": "6ea17515af2d23de681d",
-    "url": "/static/css/main.84826934.chunk.css"
+    "revision": "a7352b8c730843b329da",
+    "url": "/static/css/main.e51a586c.chunk.css"
   },
   {
-    "revision": "4db57e1e03c55e69e04c",
-    "url": "/static/js/2.197144a0.chunk.js"
+    "revision": "8b8a7b6c519c4f72eda2",
+    "url": "/static/js/2.2a36106e.chunk.js"
   },
   {
-    "revision": "6ea17515af2d23de681d",
-    "url": "/static/js/main.6312aee6.chunk.js"
+    "revision": "a7352b8c730843b329da",
+    "url": "/static/js/main.c4a56acd.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -640,6 +640,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/namanaggarwal.6da12fb6.jpeg"
   },
   {
+    "revision": "beb6552b5d55f2095a158bf70f756f1f",
+    "url": "/static/media/naveen.beb6552b.jpeg"
+  },
+  {
     "revision": "951a7ff7b23788388de90b796b0198a4",
     "url": "/static/media/neelabh.951a7ff7.jpg"
   },
@@ -650,6 +654,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fe0a02b4a4b94c1a669f9e3dc268d868",
     "url": "/static/media/newteam.fe0a02b4.jpeg"
+  },
+  {
+    "revision": "0ad30f645d178953f76ea07e2243f718",
+    "url": "/static/media/nilay.0ad30f64.jpeg"
   },
   {
     "revision": "21bb1f0f320322c81c4764d832729e94",
@@ -860,8 +868,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/team-photo.6155038d.jpg"
   },
   {
-    "revision": "23917fa36211b8e6256a92f76ba0abc5",
-    "url": "/static/media/thruster placement2.23917fa3.JPG"
+    "revision": "7f0bba23755729000f62c8d1fe3daf94",
+    "url": "/static/media/thruster placement.7f0bba23.jpg"
+  },
+  {
+    "revision": "593848a6b54fb53f87664fcdceb7c86f",
+    "url": "/static/media/thruster placement2.593848a6.JPG"
   },
   {
     "revision": "26e76710ee640fd8e5623d3ad26f2904",
@@ -930,6 +942,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "94f8e11cc70ed871371ce562cf4ccbb7",
     "url": "/static/media/water-header.94f8e11c.jpg"
+  },
+  {
+    "revision": "024e63adcb3fae8c741a5ec5e8c52d3a",
+    "url": "/static/media/whitelogo.024e63ad.png"
   },
   {
     "revision": "6b5fe5a6bdd0030a6772aa7a5b526456",
