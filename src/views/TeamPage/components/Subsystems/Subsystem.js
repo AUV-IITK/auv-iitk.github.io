@@ -14,12 +14,12 @@ function SubS() {
         </Row>
         <Row>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card className="card-plain">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 MECHANICAL 
                 {/* <i class="fa fa-cogs fa-md"></i> */}
               </div>
-              <p className="hide" style={{ fontSize: "16px" }}>
+              <p className="hide">
                 The mechanical subsystem is responsible for design and
                 manufacture of the vehicle. We design the entire vehicle and
                 accessories - working on Fluid Dynamics, Actuator controls, and
@@ -34,8 +34,8 @@ function SubS() {
             </Card>
           </Col>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card className="card-plain">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 ELECTRICAL 
                 {/* <i class="fa fa-bolt fa-md"></i> */}
               </div>
@@ -57,8 +57,8 @@ function SubS() {
         </Row>
         <Row>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card className="card-plain">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 SOFTWARE 
                 {/* <i class="fa fa-code fa-md" /> */}
               </div>
@@ -78,8 +78,8 @@ function SubS() {
             </Card>
           </Col>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card className="card-plain">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 BUSINESS &nbsp; 
                 {/* <i class="fa fa-briefcase fa-md"></i> */}
               </div>
