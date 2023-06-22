@@ -14,12 +14,12 @@ function SubS() {
         </Row>
         <Row>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card class="card-plain" style="background-color: yellow">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 MECHANICAL 
                 {/* <i class="fa fa-cogs fa-md"></i> */}
               </div>
-              <p className="hide" style={{ fontSize: "16px" }}>
+              <p className="hide" style= "text-align: justify; font-size: 16px; font-weight: bold">
                 The mechanical subsystem is responsible for design and
                 manufacture of the vehicle. We design the entire vehicle and
                 accessories - working on Fluid Dynamics, Actuator controls, and
@@ -34,12 +34,12 @@ function SubS() {
             </Card>
           </Col>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card class="card-plain" style="background-color: yellowgreen">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 ELECTRICAL 
                 {/* <i class="fa fa-bolt fa-md"></i> */}
               </div>
-              <p className="hide">
+              <p className="hide" style= "text-align: justify; font-size: 16px; font-weight: bold">
                 The Electrical Subsystem builds the framework powering our AUV
                 consisting of Power Distribution System and the Monitoring
                 system. Arduino Mega is used to control the actuation and read
@@ -57,12 +57,12 @@ function SubS() {
         </Row>
         <Row>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card className="card-plain" style= "text-align: justify; background-color: lightblue">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 SOFTWARE 
                 {/* <i class="fa fa-code fa-md" /> */}
               </div>
-              <p className="hide">
+              <p className="hide" style= "font-size: 16px; font-weight: bold">
                 The software subsystem develops the algorithms controlling the
                 robot and making it autonomous. We use latest cutting edge
                 technologies in the world of robotics software. The software
@@ -78,12 +78,12 @@ function SubS() {
             </Card>
           </Col>
           <Col className="container text-center">
-            <Card className="card-plain bg-light card-subsystems">
-              <div className="row w-100 justify-content-center font-weight-bold h5">
+            <Card class="card-plain" style= "text-align: justify; background-color: lightpink">
+              <div className="row w-100 justify-content-center font-weight-bold h2">
                 BUSINESS &nbsp; 
                 {/* <i class="fa fa-briefcase fa-md"></i> */}
               </div>
-              <p className="hide">
+              <p className="hide" style= "font-size: 16px; font-weight: bold">
                 The Business subsystem manages the fundings and outreach
                 activities of the team. We manage the expenditures and fundings
                 of the team. We represent the team before our sponsors and try
