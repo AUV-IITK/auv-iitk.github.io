@@ -6,7 +6,6 @@
 
 .accordian-toggle {
   background-color: var(--color-tertiary);
-  /* max-height: 150px; */
   min-height: 380px;
   padding: 10px;
   font-size: 2rem;
@@ -15,31 +14,33 @@
   color: var(--color-black);
   margin: 1.5rem;
   border-radius: 3%;
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
 }
 
 .accordian-toggle:hover {
-  transition: all 0.4s ease-in-out;
   color: #fff;
+  transform: rotateY(10deg);
 }
 
-.hide{
+.hide {
   display: block;
   text-align: left;
   margin: 10px;
   font-family: var(--font-primary);
 }
 
-.redirect{
+.redirect {
   font-family: var(--font-primary);
   text-decoration: underline;
   font-weight: 900;
 }
 
 @media only screen and (max-width: 900px) {
-  .hide{
+  .hide {
     display: none;
   }
-  .accordian-toggle{
+  .accordian-toggle {
     min-height: auto;
   }
 }
@@ -63,6 +64,12 @@
   margin-bottom: 20px;
   box-shadow: 5px 5px 20px rgba(12, 12, 12, 0.4);
   background-color: var(--color-white);
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
+}
+
+.card-background:hover {
+  transform: rotateY(10deg);
 }
 
 .subsystem-text {
@@ -74,26 +81,41 @@
 
 .team {
   background: #fff;
-  padding: 20px 20px 20px 20px;
-  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .member {
   align-items: center;
+  perspective: 800px;
 }
 
 .team .member {
   border-radius: 0%;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   overflow: hidden;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
+}
+
+.team .member:hover {
+  transform: rotateY(10deg);
 }
 
 .team .member .member-img {
   position: relative;
   overflow: hidden;
   border-radius: 0%;
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
+}
+
+.team .member .member-img:hover {
+  transform: rotateY(180deg);
 }
 
 .team .member .social {
@@ -106,50 +128,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateZ(30px);
 }
 
 .team .member .social a {
   transition: color 0.3s;
-  margin: 0 3px;
-  border-radius: 50px;
-  width: 36px;
-  height: 36px;
-  background: var(--color-tertiary);
-  transition: ease-in-out 0.3s;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.team .member .social a:hover {
-  background: var(--color-quartenary);
-}
-
-.team .member .social i {
-  font-size: 18px;
-  line-height: 0;
-}
-
-.team .member .member-info {
-  padding-bottom: 10px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: var(--color-black);
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-  color: var(--color-black);
-}
-
-.team .member:hover .social {
-  opacity: 1;
-  bottom: 15px;
-}
+  margin: 0 
