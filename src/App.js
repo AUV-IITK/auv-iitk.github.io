@@ -24,7 +24,7 @@ import Software from "views/MembersPage/Software";
 import Electrical from "views/MembersPage/Electrical";
 import Business from "views/MembersPage/Business";
 
-const App = () => {
+const App = () => {  
   return (
     <div>
       <HashRouter>
