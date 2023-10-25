@@ -1,7 +1,7 @@
 .containerGrid {
 	max-width: 1300px;
 	/* background-color: #bdc8d3; */
-	margin: 60px auto;
+	margin: 0 auto 60px auto;
 	padding: 100px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
