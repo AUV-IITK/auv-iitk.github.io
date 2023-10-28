@@ -37,39 +37,39 @@ import React from "react";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 
 // core components
-import TeamVideo from './components/TeamVideo/TeamVideo';
+import TeamVideo from "./components/TeamVideo/TeamVideo";
 import LegacyCarousel from "./components/LegacyCarousel/LegacyCarousel";
 import TeamHeads from "./components/TeamHeads/TeamHeads";
 import SubS from "./components/Subsystems/Subsystem";
 
-import FadeIn from 'views/Animations/FadeIn';
+import FadeIn from "views/Animations/FadeIn";
 function LandingPage() {
-    document.documentElement.classList.remove("nav-open");
-    React.useEffect(() => {
-        document.body.classList.add("profile-page");
-        return function cleanup() {
-            document.body.classList.remove("profile-page");
-        };
-    });
-    return (
-        <div>
-            <ExamplesNavbar activePage="/team" />
-            <div className="main">
-                <FadeIn>
-                    <TeamHeads />
-                </FadeIn>
-                <FadeIn>
-                    <SubS />
-                </FadeIn>
-                <FadeIn>
-                    <LegacyCarousel />
-                </FadeIn>
-                <FadeIn>
-                    <TeamVideo />
-                </FadeIn>
-            </div>
-        </div>
-    );
+	document.documentElement.classList.remove("nav-open");
+	React.useEffect(() => {
+		document.body.classList.add("profile-page");
+		return function cleanup() {
+			document.body.classList.remove("profile-page");
+		};
+	});
+	return (
+		<div>
+			<ExamplesNavbar activePage="/team" />
+			<div className="main">
+				<FadeIn>
+					<TeamHeads />
+				</FadeIn>
+				<FadeIn>
+					<SubS />
+				</FadeIn>
+				<FadeIn>
+					<LegacyCarousel />
+				</FadeIn>
+				<FadeIn>
+					<TeamVideo />
+				</FadeIn>
+			</div>
+		</div>
+	);
 }
 
 export default LandingPage;
