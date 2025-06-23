@@ -28,7 +28,7 @@ function Vehicles() {
             </Col>
             <Col sm="12" lg="7" className="my-auto">
               <h2 className="text-center mt-0 mb-3 vehicle-heading">Tarang</h2>
-              <p className=" auv-description-primary">Tarang is our third Autonomous Underwater Vehicle. Tarang has a robust, leak-proof and lightweight central hull made from carbon fiber. It has sensors like IMU, DVL and cameras on-board and can efficiently perform tasks like torpedo shooting, localization in an unknown underwater environment and complex space-constrained manoeuvres. In addition, it has improved battery and additional safety mechanisms installed to prevent damage.</p>
+              <p className=" auv-description-primary">Tarang is our third Autonomous Underwater Vehicle. (Now atal) Tarang has a robust, leak-proof and lightweight central hull made from carbon fiber. It has sensors like IMU, DVL and cameras on-board and can efficiently perform tasks like torpedo shooting, localization in an unknown underwater environment and complex space-constrained manoeuvres. In addition, it has improved battery and additional safety mechanisms installed to prevent damage.</p>
               <p className=" auv-description-primary">Tarang will participate in RoboSub-2021 held online due to the ongoing pandemic.</p>
               <div className="text-center ml-auto mr-auto">
                 <Link to='/vehicles/tarang' className="blogs-more-button text-center" style={{ margin: "0 auto" }}>
