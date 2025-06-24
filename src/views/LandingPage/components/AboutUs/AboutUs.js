@@ -35,7 +35,7 @@ function AboutUs(props) {
                 of marine robotics. The team started off in 2014, as the
                 brainchild of a group of enthusiastic engineers. From a team
                 with just an idea to create an impact on underwater robotics, we
-                have grown into a family of over 50 members, through consistent
+                have grown into a family of over 30 members, through consistent
                 dedication and hard work.
               </p>
               <p className="description auv-description-primary">
