@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f6476bb9.css",
-    "main.js": "/static/js/main.7fa9ef46.js",
+    "main.js": "/static/js/main.b47b1419.js",
     "static/media/SnT Techkriti Poster redifined.png": "/static/media/SnT Techkriti Poster redifined.1006250e0a8972df1529.png",
     "static/media/niotwinner.jpeg": "/static/media/niotwinner.9cc977363d7b4be14b73.jpeg",
     "static/media/logo_v1.32.png": "/static/media/logo_v1.32.f7330349cc1c2fa32bb8.png",
@@ -275,10 +275,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.f6476bb9.css.map": "/static/css/main.f6476bb9.css.map",
-    "main.7fa9ef46.js.map": "/static/js/main.7fa9ef46.js.map"
+    "main.b47b1419.js.map": "/static/js/main.b47b1419.js.map"
   },
   "entrypoints": [
     "static/css/main.f6476bb9.css",
-    "static/js/main.7fa9ef46.js"
+    "static/js/main.b47b1419.js"
   ]
 }
