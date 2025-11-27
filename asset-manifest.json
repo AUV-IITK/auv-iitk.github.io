@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f6476bb9.css",
-    "main.js": "/static/js/main.7fa9ef46.js",
+    "main.js": "/static/js/main.d07a761b.js",
     "static/media/SnT Techkriti Poster redifined.png": "/static/media/SnT Techkriti Poster redifined.1006250e0a8972df1529.png",
     "static/media/niotwinner.jpeg": "/static/media/niotwinner.9cc977363d7b4be14b73.jpeg",
     "static/media/logo_v1.32.png": "/static/media/logo_v1.32.f7330349cc1c2fa32bb8.png",
@@ -38,6 +38,7 @@
     "static/media/DakshitaMittal.jpg": "/static/media/DakshitaMittal.a338ffc35344ef41d49a.jpg",
     "static/media/varun_exploded.png": "/static/media/varun_exploded.78bf6fb1efe1c0ba7220.png",
     "static/media/ShubhamKumar.jpg": "/static/media/ShubhamKumar.b0f391e3916c36b085a7.jpg",
+    "static/media/Atal.jpg": "/static/media/Atal.e6fadd2801bbad80028c.jpg",
     "static/media/training.png": "/static/media/training.c0136636c39623e213f3.png",
     "static/media/akash.jpg": "/static/media/akash.b856be8e497c189ea374.jpg",
     "static/media/Yolo_V3.png": "/static/media/Yolo_V3.e0df2b7ecb10351062f8.png",
@@ -275,10 +276,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.f6476bb9.css.map": "/static/css/main.f6476bb9.css.map",
-    "main.7fa9ef46.js.map": "/static/js/main.7fa9ef46.js.map"
+    "main.d07a761b.js.map": "/static/js/main.d07a761b.js.map"
   },
   "entrypoints": [
     "static/css/main.f6476bb9.css",
-    "static/js/main.7fa9ef46.js"
+    "static/js/main.d07a761b.js"
   ]
 }
