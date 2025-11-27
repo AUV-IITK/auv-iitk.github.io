@@ -1,5 +1,6 @@
 import React from "react";
-import anahitapic from "assets/img/anahita-1.jpg";
+// import anahitapic from "assets/img/anahita-1.jpg";
+import atalpic from "assets/img/atal/Atal.jpg";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./AboutUs.css";
@@ -28,8 +29,7 @@ function AboutUs(props) {
           </div>
           <Row>
             <Col className="mt-0 left-desc" xl="9">
-              <img src={anahitapic} className=" w-100"></img>
-
+              <img src={atalpic} className=" w-100"></img>
               <p className="description auv-description-primary">
                 We are a team of undergraduate students researching in the field
                 of marine robotics. The team started off in 2014, as the
@@ -39,8 +39,8 @@ function AboutUs(props) {
                 dedication and hard work.
               </p>
               <p className="description auv-description-primary">
-                We have successfully designed and manufactured two robust
-                autonomous underwater vehicles (AUV), namely, Varun and Anahita.
+                We have successfully designed and manufactured three robust
+                autonomous underwater vehicles (AUV), namely, Varun, Anahita and Atal.
                 These machines are capable of navigating in unknown
                 environments, performing acoustic localization, and identifying
                 objects using computer vision.{" "}
@@ -89,7 +89,7 @@ function AboutUs(props) {
                   <i className="mt-4 fa fa-coffee fa-5x icon-responsive" />
                   <div className="description2">
                     <h4 className="mt-3">
-                      <strong>400+ NightOuts</strong>
+                      <strong>800+ NightOuts</strong>
                     </h4>
                   </div>
                 </div>

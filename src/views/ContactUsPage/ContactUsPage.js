@@ -118,15 +118,18 @@ const ContactUsPage = () => {
                   <Col md="1">
                     <i className="fa fa-phone contact-icon" />
                   </Col>
-                  <Col md="10" className="ml-3 mt-4">
+                  {/* <Col md="10" className="ml-3 mt-4">
                     <p className="desc-auv">Phone Number : +91 9521597992 </p>
+                  </Col> */}
+                  <Col md="10" className="ml-3 mt-4">
+                    <p className="desc-auv">Phone Number : +91 9807199316 </p>
                   </Col>
 
                   <Col md="1">
                     <i className="fa fa-envelope-square contact-icon" />
                   </Col>
                   <Col md="10" className="ml-3 mt-4">
-                    <p className="desc-auv">Email id : iitkauv@gmail.com </p>
+                    <p className="desc-auv">Email id : auv_snt@iitk.ac.in, iitkauv@gmail.com </p>
                   </Col>
 
                   <Col md="1">
