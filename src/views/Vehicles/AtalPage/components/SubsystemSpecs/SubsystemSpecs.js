@@ -49,7 +49,7 @@ function Posts() {
                                                         </div>
                                                         <div style={{ display: 'grid', placeItems: 'center' }}>
 
-                                                            {"hull_final.png" && <img className={("hull_final.png" === 'md working2.PNG') ? 'w-50' : 'w-75' + ' accord-img'} alt="spec-img" src={require("assets/img/atal/atal_hull.jpeg")} />}
+                                                            <img className="w-75 accord-img" alt="spec-img" src={require("assets/img/atal/atal_hull.jpeg")} />
                                                             <div className="card-image-description" style={{ fontFamily: 'monospace', textAlign: 'center' }} >
                                                                 A view of Atal's hull design.
                                                             </div>

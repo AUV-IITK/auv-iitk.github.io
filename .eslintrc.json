@@ -18,6 +18,7 @@
 	},
 	"plugins": ["react"],
 	"rules": {
+		" no-constant-condition":"off",
 		"import/extensions": "off",
 		"react/prop-types": "off",
 		"no-unused-vars": [2, { "vars": "all", "args": "after-used" }],
