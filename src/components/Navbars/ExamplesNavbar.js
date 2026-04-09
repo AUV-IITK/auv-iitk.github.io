@@ -174,7 +174,7 @@ function ExamplesNavbar(props) {
                       Software
                     </DropdownItem>
                   </Link>
-                  <Link to='/business'>
+                  {/* <Link to='/business'>
                     <DropdownItem
                       style={{ textAlign: "center" }}
                       className="auv-dropdown"
@@ -182,7 +182,7 @@ function ExamplesNavbar(props) {
                     >
                       Business
                     </DropdownItem>
-                  </Link>
+                  </Link> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -226,13 +226,22 @@ function ExamplesNavbar(props) {
                   className="dropdown-info ml-auto mr-auto"
                   style={{ borderRadius: "0", textAlign: "center" }}
                 >
-                  <Link to="/vehicles/tarang">
+                  {/* <Link to="/vehicles/tarang">
                     <DropdownItem
                       style={{ textAlign: "center" }}
                       className="auv-dropdown"
                       onClick={toggleNavbarCollapse}
                     >
                       Tarang
+                    </DropdownItem>
+                  </Link> */}
+                  <Link to="/vehicles/atal">
+                    <DropdownItem
+                      style={{ textAlign: "center" }}
+                      className="auv-dropdown"
+                      onClick={toggleNavbarCollapse}
+                    >
+                      Atal
                     </DropdownItem>
                   </Link>
                   <Link to="/vehicles/anahita">
@@ -279,6 +288,20 @@ function ExamplesNavbar(props) {
                   tag={Link}
                 >
                   Contact Us
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  data-placement="bottom"
+                  href="https://www.instagram.com/auviitk/"
+                  target="_blank"
+                  title="Like us on Instagram"
+                  style={{ textAlign: "center", color: "white" }}
+                >
+                  <i className="fa fa-instagram nav-social" />
+                  <p className="d-lg-none" style={{ color: "white" }}>
+                    Instagram
+                  </p>
                 </NavLink>
               </NavItem>
               <NavItem>

@@ -41,7 +41,7 @@ function Footer() {
                 <NavLink to="/team" tag={Link} className="footer-nav-link">
                   Team
                 </NavLink>
-                <NavLink to="/vehicles/anahita" tag={Link} className="footer-nav-link">
+                <NavLink to="/vehicles/atal" tag={Link} className="footer-nav-link">
                   Vehicles
                 </NavLink>
                 <NavLink to="/contact-us" tag={Link} className="footer-nav-link">
@@ -72,7 +72,7 @@ function Footer() {
                     data-placement="bottom"
                     href="https://www.linkedin.com/company/auv-iitk/"
                     target="_blank"
-                    title="Reach Us on Linkedin"
+                    title="Reach Out to us on Linkedin"
                     className="footer-nav-icon"
                   >
                     <i className="fa fa-linkedin-square" />
@@ -81,7 +81,7 @@ function Footer() {
                     data-placement="bottom"
                     href="mailto:iitkauv@gmail.com"
                     target="_blank"
-                    title="Write Us"
+                    title="Write to Us"
                     className="footer-nav-icon"
                   >
                     <i className="fa fa-envelope-square" />
@@ -90,8 +90,7 @@ function Footer() {
                     data-placement="bottom"
                     href="https://www.instagram.com/auviitk/"
                     target="_blank"
-                    title="Follow us on Instagram
-                    "
+                    title="Follow us on Instagram"
                     className="footer-nav-icon"
                   >
                     <i className="fa fa-instagram" />

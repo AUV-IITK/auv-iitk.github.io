@@ -1,6 +1,6 @@
 import React from "react";
 // import anahitapic from "assets/img/anahita-1.jpg";
-import atalpic from "assets/img/atal/Atal.jpg";
+import atalpic from "assets/img/atal/atal2026.jpeg";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./AboutUs.css";
@@ -30,12 +30,13 @@ function AboutUs(props) {
           <Row>
             <Col className="mt-0 left-desc" xl="9">
               <img src={atalpic} className=" w-100"></img>
+
               <p className="description auv-description-primary">
                 We are a team of undergraduate students researching in the field
                 of marine robotics. The team started off in 2014, as the
                 brainchild of a group of enthusiastic engineers. From a team
                 with just an idea to create an impact on underwater robotics, we
-                have grown into a family of over 30 members, through consistent
+                have grown into a family of over 25 members, through consistent
                 dedication and hard work.
               </p>
               <p className="description auv-description-primary">
@@ -58,7 +59,7 @@ function AboutUs(props) {
                   {/* In order to align the icons center add the class 'icon-align' to each of the icon */}
                   <div className="description2">
                     <h4 className="mt-3">
-                      <strong>15 Members</strong>
+                      <strong>25 Members</strong>
                     </h4>
                   </div>
                 </div>
@@ -69,7 +70,7 @@ function AboutUs(props) {
                   <i className="mt-4 fa fa-briefcase fa-5x icon-responsive" />
                   <div className="description2">
                     <h4 className="mt-3">
-                      <strong>30+ Projects </strong>
+                      <strong>50+ Projects </strong>
                     </h4>
                   </div>
                 </div>

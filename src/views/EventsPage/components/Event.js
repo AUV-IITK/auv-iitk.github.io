@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import "./Event.css";
 import FadeIn from "views/Animations/FadeIn";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function Event(props) {
   return (
     <>
@@ -30,11 +30,18 @@ function Event(props) {
                 <h1 className="small-heading primary-heading">
                   {props.event.heading02}
                 </h1>
-                {(props.event.name !== "ROBOSUB") ?
+                {/* {(props.event.name !== "ROBOSUB") ?
                   <h2 className=" mt-3 small-heading-edited secondary-heading">
-                    {props.event.subheading02}
-                  </h2> : <Link to='/vehicles/tarang' className="small-heading-edited tarang-link"> {props.event.subheading02}</Link>
-                }
+                  //  {props.event.subheading02}
+                  //</h2> : 
+                  <Link to='/vehicles/tarang' className="small-heading-edited tarang-link"> {props.event.subheading02}</Link>
+                } */}
+                <h2 className=" mt-3 small-heading-edited secondary-heading">
+                  {props.event.subheading08}
+                </h2>
+                <h2 className=" mt-3 small-heading-edited secondary-heading">
+                  {props.event.subheading02}
+                </h2>
                 <h2 className=" mt-3 small-heading-edited secondary-heading">
                   {props.event.subheading03}
                 </h2>

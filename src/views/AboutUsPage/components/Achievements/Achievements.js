@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import niotwin from '../../../../assets/img/niotwinner.png'
-import desbot from '../../../../assets/img/anahita_design.jpg'
+import desbot from '../../../../assets/img/atal_design.png'
 import atwork from '../../../../assets/img/newreplaced.jpg'
 import './Achievements.css'
 
@@ -29,7 +29,7 @@ function Posts() {
                                 <Card.Body>
                                     <Card.Title>Ingenious Design & Creativity</Card.Title>
                                     <p className="card-info">
-                                        The designing process behind our latest vehicle, Anahita, has
+                                        The designing process behind our latest vehicle, ATAL, has
                                         been appreciated at the international level.
                                     </p>
                                 </Card.Body>

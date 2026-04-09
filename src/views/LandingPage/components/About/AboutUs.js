@@ -34,8 +34,8 @@ function AboutUs () {
                                 dedication and hard work.
                             </p>
                             <p className="description auv-description-primary">
-                                We have successfully designed and manufactured two robust
-                                autonomous underwater vehicles (AUV), namely, Varun and Anahita.
+                                We have successfully designed and manufactured three robust
+                                autonomous underwater vehicles (AUV), namely, Varun, Anahita and Atal.
                                 These machines are capable of navigating in unknown
                                 environments, performing acoustic localization, and identifying
                                 objects using computer vision.{' '}
@@ -59,7 +59,7 @@ function AboutUs () {
                                 <div className=" icon-auv">
                                     <i className="  mt-4 fa fa-users fa-5x"/>
                                     <div className="description">
-                                        <h4 className=""><strong>20 Team Members</strong></h4>
+                                        <h4 className=""><strong>25 Team Members</strong></h4>
 
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ function AboutUs () {
                                 <div className=" icon-auv">
                                     <i className="mt-4 fa fa-briefcase fa-5x"/>
                                     <div className="description">
-                                        <h4 className=""><strong>30+ Projects </strong></h4>
+                                        <h4 className=""><strong>50+ Projects </strong></h4>
 
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ function AboutUs () {
                                 <div className=" icon-auv">
                                     <i className="mt-4 fa fa-coffee fa-5x"/>
                                     <div className="description">
-                                        <h4 className=""><strong>400+ NightOuts</strong></h4>
+                                        <h4 className=""><strong>800+ NightOuts</strong></h4>
 
                                     </div>
                                 </div>

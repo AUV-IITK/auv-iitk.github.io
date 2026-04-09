@@ -1,5 +1,6 @@
 import React from 'react';
-import teamphoto from "assets/img/team-photo.jpg"
+//import teamphoto from "assets/img/team-photo.jpg"
+import teamphoto from "assets/img/DSC02829.jpg"
 import { Link } from 'react-router-dom';
 import {useEffect} from "react";
 

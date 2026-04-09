@@ -1,0 +1,64 @@
+{
+    "teamData": [
+        {
+            "heading": "Team Members",
+            "items": [
+                {
+                    "name": "Ashish Upadhyay",
+                    "subheading": "Y23, Subsystem Head",
+                    "image": "team_2025/AshishUpadhyay.jpg",
+                    "Vertical": "Electronics",
+                    "facebook": "https://www.instagram.com/ashish_upadhyay_01",
+                    "linkedin": "https://www.linkedin.com/in/ashish-upadhyay-b2044b338/",
+                    "mailid": "ashishu23@iitk.ac.in"
+                },
+                {
+                    "name": "Aarzoo Yadav",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/Aarzoo.jpg",
+                    "Vertical": "Electronics",
+                    "facebook": "https://www.instagram.com/aarz00_yadav_?igsh=MWoxZmwyYmF3YmQybw==",
+                    "linkedin": "www.linkedin.com/in/aarzoo-yadav-910098325",
+                    "mailid": "aarzoop24@iitk.ac.in"
+                },
+                {
+                    "name": "Arushi Kondaskar",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/ArushiKondaskar.jpeg",
+                    "Vertical": "Electronics",
+                    "facebook": "https://www.instagram.com/arushi_kondaskar_14?igsh=MTY3ZWpqd3dveG44cg==",
+                    "linkedin": "https://www.linkedin.com/in/arushi-kondaskar-90971a319/",
+                    "mailid": "arushik24@iitk.ac.in"
+                },
+                {
+                    "name": "Harikrishna S",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/harikrishna.jpg",
+                    "Vertical": "Signal Processing",
+                    "facebook": "",
+                    "linkedin": "",
+                    "mailid": "harikrish24@iitk.ac.in"
+                },
+                {
+                    "name": "Ishwin Kumar",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/ishwinKumar.jpg",
+                    "Vertical": "PCB design",
+                    "facebook": "https://www.instagram.com/ishwin_kumar/?hl=en",
+                    "linkedin": "",
+                    "mailid": "ishwink24@iitk.ac.in"
+                },
+                {
+                    "name": "Shruti Sahu",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/ShrutiSahu.jpg",
+                    "Vertical": "Signal Processing",
+                    "facebook": "https://www.instagram.com/sh_shruti_05?utm_source=qr",
+                    "linkedin": "https://www.linkedin.com/in/shruti-sahu-1a2a19319/",
+                    "mailid": "shrutis24@iitk.ac.in"
+                }
+                
+            ]
+        }
+    ]
+}

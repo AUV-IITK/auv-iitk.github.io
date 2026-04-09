@@ -15,6 +15,7 @@ import TeamPage from "views/TeamPage/TeamPage";
 import AnahitaPage from "views/Vehicles/AnahitaPage/AnahitaPage";
 import VarunPage from "views/Vehicles/VarunPage/VarunPage";
 import TarangPage from "views/Vehicles/TarangPage/TarangPage";
+import AtalPage from "views/Vehicles/AtalPage/AtalPage";
 import EventsPage from "views/EventsPage/EventsPage";
 import BlogsPage from "views/BlogsPage/BlogsPage";
 import ContactUsPage from "views/ContactUsPage/ContactUsPage";
@@ -49,6 +50,10 @@ const App = () => {
           <Route
             path="/vehicles/tarang"
             render={(props) => <TarangPage {...props} />}
+          />
+          <Route
+            path="/vehicles/atal"
+            render={(props) => <AtalPage {...props} />}
           />
           <Route path="/events" render={(props) => <EventsPage {...props} />} />
 

@@ -1,0 +1,150 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    container-type: inline-size;
+    aspect-ratio: 3.5 / 4;
+    width: 100%;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 4rem 1rem rgb(0, 0, 0, 0.4);
+    overflow: hidden;
+    margin: 1% auto;
+    position: relative;
+}
+
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.card:hover .card-blur {
+    opacity: 0.6;
+}
+
+.footer {
+    z-index: 1;
+    position: absolute;
+    height: 22%;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+svg.curve-svg {
+    position: absolute;
+    fill: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.connections {
+    height: 85%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.connection {
+    aspect-ratio: 1 / 1;
+    width: 16%;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(500%);
+    transition: transform 1s cubic-bezier(.46, 1.48, .18, .81);
+}
+
+.card:hover .connection {
+    transform: translateY(0%);
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-size: 6.5cqw;
+    font-weight: bolder;
+    color: #000000;
+    margin: 1cqw auto 0.5cqw auto;
+}
+
+.job {
+    font-size: 1.1rem;
+    font-size: 4.5cqw;
+    color: #000000;
+    margin: 0.5cqw auto;
+}
+
+.connection.facebook {
+    transition-delay: 0.0s;
+}
+
+.connection.twitter {
+    transition-delay: 0.08s;
+}
+
+.connection.behance {
+    transition-delay: 0.16s;
+}
+
+.connection .icon {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection.facebook .icon,
+.connection.twitter .icon {
+    background-color: rgb(255, 255, 255);
+}
+
+.connection.behance .icon {
+    background-color: rgb(235, 235, 235);
+}
+
+.connection .icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.connection .icon i {
+    font-size: 1.4rem;
+    font-size: 8cqw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

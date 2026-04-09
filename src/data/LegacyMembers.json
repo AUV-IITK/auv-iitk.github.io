@@ -3,8 +3,38 @@
         {
             "items": [
                 {
-                    "name": "Saksham Mittal",
+                    "name": "Anshul Narwariya",
                     "subheading": "Final Year Student, IIT Kanpur",
+                    "image": "Legacy/ANSHULNARWARIYA.jpg",
+                    "linkedin": "https://www.linkedin.com/in/anshul-narwariya-973053258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "Likith Sai Jonna ",
+                    "subheading": "Final Year Student, IIT Kanpur",
+                    "image": "Legacy/LikithSaijonna.jpg",
+                    "linkedin": "https://www.linkedin.com/in/likith-sai-jonna-6102b7257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "Varun Mahajan",
+                    "subheading": "Final Year Student, IIT Kanpur",
+                    "image": "Legacy/VarunMahajan.jpeg",
+                    "linkedin": "https://www.linkedin.com/in/varun-mahajan-347a55268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                }
+            ]
+        },
+        {
+            "items": [
+                {
+                    "name": "Saksham Mittal",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image": "Legacy/sakshammittal.jpeg",
                     "linkedin": "https://www.linkedin.com/in/saksham-mittal/"
                 }
@@ -14,7 +44,7 @@
             "items": [
                 {
                     "name": "Naman Agarwal",
-                    "subheading": "Final Year Student, IIT Kanpur",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image": "Legacy/namanaggarwal.jpeg",
                     "linkedin": "https://www.linkedin.com/in/naman-ag/"
                 }
@@ -24,7 +54,7 @@
             "items": [
                 {
                     "name": "Akash Kumar Singh ",
-                    "subheading": "Final Year Student, IIT Kanpur",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image": "Legacy/akash.jpg",
                     "linkedin": "https://www.linkedin.com/in/akash-kumar-singh-605b39130/"
                 }
@@ -34,7 +64,7 @@
             "items": [
                 {
                     "name": "Abhinav Arora",
-                    "subheading": "Final Year Student, IIT Kanpur",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image": "Legacy/abhinav.jpeg",
                     "linkedin": "https://www.linkedin.com/in/abhinav-arora-27686a14b/"
                 }
@@ -44,7 +74,7 @@
             "items":[
                 {
                     "name": "Nilay Saha",
-                    "subheading": "Final Year Student, IIT Kanpur",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image": "Legacy/nilay.jpeg",
                     "linkedin": "https://www.linkedin.com/in/nilay-shah-217188175/"
                 }
@@ -144,7 +174,7 @@
             "items":[
                 {
                     "name": "Mohit Pandey",
-                    "subheading": "PhD Student at IIT Kanpur",
+                    "subheading": "Alumnus, IIT Kanpur",
                     "image":"Legacy/mohit.jpg",
                     "linkedin": "https://www.linkedin.com/in/mohit-pandey-2002408b/"
                 }
@@ -154,7 +184,7 @@
             "items": [
                 {
                     "name": "Naveen Chandra",
-                    "subheading": "Masters Student at IIT Kanpur",
+                    "subheading": "Masters from IIT Kanpur",
                     "image": "Legacy/naveen.jpeg",
                     "linkedin":"https://www.linkedin.com/in/naveen-chandra-r-7230aa192/"
                 }

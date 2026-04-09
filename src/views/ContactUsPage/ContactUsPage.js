@@ -10,7 +10,7 @@ import {
   InputGroupText,
   Row,
 } from 'reactstrap'
-import axios from "../../axios-contact";
+// import axios from "../../axios-contact";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 import "./ContactUsPage.css"
 
@@ -21,14 +21,22 @@ const ContactUsPage = () => {
 
   const postDataHandler = (event) => {
     event.preventDefault();
-    const data = {
-      name: name,
-      message: message,
-      email: email
-    }
-    axios.post('/message.json', data).then(response => {
-      console.log(response);
-    })
+    
+    // Original Firebase saving logic:
+    // const data = {
+    //   name: name,
+    //   message: message,
+    //   email: email
+    // }
+    // axios.post('/message.json', data).then(response => {
+    //   console.log(response);
+    // })
+    
+    const subject = encodeURIComponent(`Contact Us Form: Message from ${name}`);
+    const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    );
+    window.location.href = `mailto:auv_snt@iitk.ac.in?subject=${subject}&body=${body}`;
 
     setName("");
     setEmail("");
@@ -118,18 +126,15 @@ const ContactUsPage = () => {
                   <Col md="1">
                     <i className="fa fa-phone contact-icon" />
                   </Col>
-                  {/* <Col md="10" className="ml-3 mt-4">
-                    <p className="desc-auv">Phone Number : +91 9521597992 </p>
-                  </Col> */}
                   <Col md="10" className="ml-3 mt-4">
-                    <p className="desc-auv">Phone Number : +91 9807199316 </p>
+                    <p className="desc-auv">Phone Number : +91 98071 99316 </p>
                   </Col>
 
                   <Col md="1">
                     <i className="fa fa-envelope-square contact-icon" />
                   </Col>
                   <Col md="10" className="ml-3 mt-4">
-                    <p className="desc-auv">Email id : auv_snt@iitk.ac.in, iitkauv@gmail.com </p>
+                    <p className="desc-auv">Email id : auv_snt@iitk.ac.in </p>
                   </Col>
 
                   <Col md="1">

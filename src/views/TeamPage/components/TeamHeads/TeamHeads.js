@@ -1,5 +1,6 @@
 import React from 'react';
-import teamphoto from "assets/img/team-photo.jpg"
+//import teamphoto from "assets/img/team-photo.jpg"
+import teamphoto from "assets/img/DSC02829.jpg"
 import { useEffect } from "react";
 
 import "./TeamHeads.css"
@@ -40,8 +41,9 @@ function TeamHeads() {
                                 <div key={""}>
                                     <Row className="justify-content-center">
                                         {section.items.map((teamMember) => {
+                                            const isProf = section.heading === "Faculty Advisor";
                                             return (
-                                                <Col lg="3" md="6" className="team text-center" key={teamMember.name}>
+                                                <Col lg={isProf ? "5" : "3"} md={isProf ? "8" : "6"} className="team text-center" key={teamMember.name}>
                                                     <div className="alignment">
                                                         <div className="member">
                                                             <div className="member-img">
@@ -49,13 +51,17 @@ function TeamHeads() {
                                                                     <img src={require("assets/img/" + teamMember.image)}
                                                                         className="member-img img-fluid" alt="" />
                                                                 </div>
-                                                                <div className="social">
-                                                                    <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
-                                                                    <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
+                                                                <div>
+                                                                    <br></br>
+                                                                    <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+                                                                        <a href={teamMember.facebook} target='_blank' rel="noopener noreferrer"><i className="fa fa-facebook fa-2x" /></a>
+                                                                        <a href={teamMember.linkedin} target='_blank' rel="noopener noreferrer"><i className="fa fa-linkedin fa-2x" /></a>
+                                                                        {teamMember.mailid && <a href={`mailto:${teamMember.mailid}`} target='_blank' rel="noopener noreferrer"><i className="fa fa-envelope fa-2x" /></a>}
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                             <div className="member-info">
-                                                                <h4>{teamMember.name}</h4>
+                                                                <h5>{teamMember.name}</h5>
                                                                 <span>{teamMember.subheading}</span>
                                                             </div>
                                                         </div>

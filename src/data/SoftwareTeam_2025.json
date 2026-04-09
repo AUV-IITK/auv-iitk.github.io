@@ -1,0 +1,102 @@
+{
+    "teamData": [
+        {
+            "heading": "Team Members",
+            "items": [
+                {
+                    "name": "Suyash Kumar",
+                    "subheading": "Y23, Subsystem Head",
+                    "image": "team_2025/SUYASHKUMAR.jpg",
+                    "Vertical": "Computer Vision",
+                    "facebook": "https://www.instagram.com/safebet5705?igsh=YmJoeTRucGJrMXI1",
+                    "linkedin": "https://www.linkedin.com/in/suyash-kumar-b062491bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                    "mailid": "k.suyashc@gmail.com"
+                },
+                {
+                    "name": "Ayush Muttepawar",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/AyushMuttepawar.jpg",
+                    "Vertical": "ROS and Controls",
+                    "facebook": "https://www.instagram.com/ayushm2048?igsh=MWttM3l4MzR5NnlvcQ==",
+                    "linkedin": "https://in.linkedin.com/in/ayush-muttepawar-79261231b",
+                    "mailid": "ayushmg24@iitk.ac.in"
+                },
+                {
+                    "name": "Dhruv Kejriwal",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/DhruvKejriwal.png",
+                    "Vertical": "ROS and Controls",
+                    "facebook": "",
+                    "linkedin": "https://www.linkedin.com/in/dhruv-kejriwal-946470282/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3BnbeX4KkTTNGt7Lp3MGXGsg%3D%3D",
+                    "mailid": "kdhruv24@iitk.ac.in"
+                },
+                {
+                    "name": "Ira Srivastava",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/IraSrivastava.jpg",
+                    "Vertical": "ROS and Controls",
+                    "facebook": "https://www.instagram.com/errrr.or404/",
+                    "linkedin": "https://www.linkedin.com/in/ira-srivastava-a86489357/",
+                    "mailid": "iras24@iitk.ac.in"
+                },
+                
+                {
+                    "name": "Prakhar Jain",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/PrakharJain.jpg",
+                    "Vertical": "Computer Vision",
+                    "facebook": "https://www.instagram.com/prakharjain_01/",
+                    "linkedin": "https://www.linkedin.com/in/prakhar-jain-258862343/",
+                    "mailid": "prakharj24@iitk.ac.in"
+                },
+                {
+                    "name": "Prathamesh Kukade",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/PrathameshKukade.jpg",
+                    "Vertical": "Computer Vision",
+                    "facebook": "https://www.instagram.com/prathamesh_kukade.ig?igsh=MXQ2N2JyZDhvODN0bQ==",
+                    "linkedin": "https://www.linkedin.com/in/prathamesh-kukade-26151a257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                    "mailid": "prathamr24@iitk.ac.in"
+                },
+                {
+                    "name": "Raghav Dangayach",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/RaghavDangayach.jpg",
+                    "Vertical": "Computer Vision",
+                    "facebook": "https://www.instagram.com/dangayachraghavjpr?igsh=MWI4eWJqOTJ5YXFuNg==",
+                    "linkedin": "https://www.linkedin.com/in/raghav-dangayach-282b31341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                    "mailid": "raghavd24@iitk.ac.in"
+                },
+                
+                {
+                    "name": "Samridhi Jain",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/SamridhiJain.jpeg",
+                    "Vertical": "ROS and Controls",
+                    "facebook": "https://www.instagram.com/samriidhiijain?igsh=djh3NzZ3NnIxaWU0",
+                    "linkedin": "www.linkedin.com/in/samridhi-jain-aa06aa220",
+                    "mailid": "samridhij24@iitk.ac.in"
+                },
+                {
+                    "name": "Sparsh Pradeep Jain",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/SparshJain.jpg",
+                    "Vertical": "Computer Vision",
+                    "facebook": "https://www.instagram.com/sparshj636/",
+                    "linkedin": "https://www.linkedin.com/in/sparsh-p-jain/",
+                    "mailid": "sparshp24@iitk.ac.in"
+                },
+                
+                {
+                    "name": "Vishnu Sarathy",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/vishnu.jpeg",
+                    "Vertical": "ROS and Controls",
+                    "facebook": "",
+                    "linkedin": "",
+                    "mailid": "vishnusb24@iitk.ac.in"
+                }
+            ]
+        }
+    ]
+}

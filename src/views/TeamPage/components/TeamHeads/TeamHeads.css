@@ -1,6 +1,6 @@
 .member-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   max-height: 320px;
 }
 
@@ -17,4 +17,13 @@
   font-weight: 500;
   color: var(--color-black);
   font-family: var(--font-primary);
+}
+.card {
+  aspect-ratio: 3.5 / 4;
+  max-width: 100%;
+  border-radius: 3%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  margin: 1% auto;
+  position: relative;
 }

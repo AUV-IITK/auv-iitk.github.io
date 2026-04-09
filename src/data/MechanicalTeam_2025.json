@@ -1,0 +1,74 @@
+{
+    "teamData": [
+        {
+            "heading": "Team Members",
+            "items": [
+                {
+                    "name": "Saket Nandedkar",
+                    "subheading": "Y23, Subsystem Head",
+                    "image": "team_2025/SaketNandedkar.jpeg",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/saket_nandedkar?igsh=MWpuM2JnZXhwd2U0aQ==",
+                    "linkedin": "https://www.linkedin.com/in/saket-nandedkar-20bb8b29a/",
+                    "mailid": "Saket.n13@gmail.com"
+                },
+                {
+                    "name": "Khushal Wadhwa",
+                    "subheading": "Y23, Senior Member",
+                    "image": "team_2025/KhushalWadhwa.jpeg",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/khushwadhwa24/",
+                    "linkedin": "https://www.linkedin.com/in/khushal-wadhwa-0b4b22282/",
+                    "mailid": "khushal.wadhwa2406@gmail.com"
+                },
+                
+                {
+                    "name": "Arnav Gupta",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/ArnavGupta.jpeg",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/arnavgupta605?igsh=NGd0NGE2eG5nZGpu&utm_source=qr",
+                    "linkedin": "https://www.linkedin.com/in/arnav-gupta-b0b3b7323/",
+                    "mailid": "arnavu24@iitk.ac.in"
+                },
+                {
+                    "name": "Aryaman Oberoi",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/AryamanOberoi.png",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/oberoi_aryaman?igsh=ejRmbWQ2bWlkdmxz",
+                    "linkedin": "",
+                    "mailid": "aryamano24@iitk.ac.in"
+                },
+                {
+                    "name": "Meet Solanki",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/MeetSolanki.jpg",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/_meetsolanki?igsh=YW5sZ29ob3MyajVl",
+                    "linkedin": "https://www.linkedin.com/in/meet-solanki-1a3016331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                    "mailid": "solankim24@iitk.ac.in"
+                },
+                
+                {
+                    "name": "Saurav Kumar",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/SauravKumar.jpg",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/saurav_mishra15?igsh=dHpxY3Vyb3V5M2l6",
+                    "linkedin": "",
+                    "mailid": "sauravk24@iitk.ac.in"
+                },
+                {
+                    "name": "Sunidhi Chauhan",
+                    "subheading": "Y24, Junior Member",
+                    "image": "team_2025/SunidhiChauhan.png",
+                    "Vertical": "Design and Assembly",
+                    "facebook": "https://www.instagram.com/sunidhii_270?igsh=bDl1ZzFqYmc3ZjA5",
+                    "linkedin": "https://www.linkedin.com/in/sunidhi-chauhan-b66219369",
+                    "mailid": "sschauhan24@iitk.ac.in"
+                }
+            ]
+        }
+    ]
+}

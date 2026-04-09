@@ -4,11 +4,12 @@
             "heading": "Faculty Advisor",
             "items": [
                 {
-                    "name": "Prof. Indranil Saha",
-                    "subheading": "Faculty Advisor, CSE Dept, IITK",
-                    "image": "team/indranilSaha.jpg",
-                    "facebook": "https://www.facebook.com/",
-                    "linkedin": "https://www.linkedin.com/in/indranil-saha-8859135/?originalSubdomain=in",
+                    "name": "Prof. Dipak Kumar Giri",
+                    "subheading": "Faculty Advisor, Aerospace Dept, IITK",
+                    "image": "team_2025/Dipak-Kumar-Giri.jpg",
+                    "facebook": "https://www.facebook.com/dipakkumar.giri.5/",
+                    "linkedin": "https://www.linkedin.com/in/dipak-kumar-giri-03893739/",
+                    "mailid": "dkgiri@iitk.ac.in",
                     "text": "Lorem ipsum dolor sit amet, consec adipiscing elit, sed do eiusmod tempor incididunt ut "
                 }
             ]

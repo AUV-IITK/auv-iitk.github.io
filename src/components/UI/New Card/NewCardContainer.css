@@ -1,0 +1,17 @@
+.containerGrid {
+	max-width: 1300px;
+	/* background-color: #bdc8d3; */
+	margin: 0 auto 60px auto;
+	padding: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 40px;
+	border-radius: 9px;
+	color: #000;
+}
+
+@media only screen and (max-width: 800px) {
+	.containerGrid {
+		grid-template-columns: 1fr;
+	}
+}

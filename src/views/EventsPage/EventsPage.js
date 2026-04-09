@@ -23,10 +23,11 @@ function LandingPage() {
     name: 'ROBOSUB',
     link: 'https://robosub.org/',
     heading: 'Location',
-    subheading: 'San Diego, California',
+    subheading: 'Woollett Aquatics Center, Irvine, California, USA',
     heading02: 'Our Participation',
+    subheading08: 'Looking forward to participate in Robosub-2026',
     subheading02: 'Participated in Robosub-2021',
-    // subheading03: '3rd position in Website, 4th and 6th in Skill Video and 16th position in TDR Report',
+    // subheading02: '3rd position in Website, 4th and 6th in Skill Video and 16th position in TDR Report',
     subheading04: 'Participated in Robosub-2019',
     heading03: 'Laurels',
     subheading05: '3rd Position in Website category, RoboSub-2021',
@@ -59,11 +60,11 @@ function LandingPage() {
     heading: 'Location',
     subheading: 'Singapore, Asia',
     heading02: 'Our Participation',
-    subheading02: 'Hope to participate soon',
+    subheading02: 'Participated in SAUVC 2025',
     subheading03: '',
     subheading04: '',
     para1:
-      "The SAUVC competition challenges participant teams to build an AUV which can perform given tasks. These tasks are simulations of tasks operational AUVs would have to be able to perform. The competition is held in a swimming pool and each team's AUV will have to perform 4 tasks. The speed and accuracy at which the AUV performs tasks will be used to decide the winner of the competition.The tasks involve four widely faced challenges underwater such as AUV navigation, visual identification, acoustic localization and robotic manipulation.The competition is open to participants from all over the world.",
+      "The SAUVC competition challenges participant teams to build an AUV which can perform given tasks. These tasks are simulations of tasks operational AUVs would have to be able to perform. The competition is held in a swimming pool and each team's AUV will have to perform 4 tasks. The speed and accuracy at which the AUV performs tasks will be used to decide the winner of the competition. The tasks involve four widely faced challenges underwater such as AUV navigation, visual identification, acoustic localization and robotic manipulation.",
     para2: '',
     image: sauvcimg
   }
@@ -79,8 +80,8 @@ function LandingPage() {
       </div>
       <div className="main">
         <Event event={event1}> </Event>
-        <Event event={event2}> </Event>
         <Event event={event3}> </Event>
+        <Event event={event2}> </Event>
       </div>
     </div>
   )

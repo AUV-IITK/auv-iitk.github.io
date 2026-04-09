@@ -21,15 +21,7 @@ function SubS() {
 					</div>
 					<div className="info-link">
 						<p className="info">
-							The mechanical subsystem is responsible for design
-							and manufacture of the vehicle. We design the entire
-							vehicle and accessories - working on Fluid Dynamics,
-							Actuator controls, and Pneumatics. We plan, simulate
-							and test the physical structure of the AUV and then
-							manufacture it using state of art manufacturing
-							techniques. We use latest software such as
-							SolidWorks and ANSYS to make the design robust,
-							modular, light and strong.
+							The Mechanical Subsystem is responsible for the design and manufacturing of the vehicle and its associated components. The team works extensively on vehicle architecture, fluid dynamics, actuator mechanisms, and pneumatic systems to ensure optimal performance. From conceptualization to prototyping, we plan, simulate, and rigorously test the structural design of the AUV before manufacturing it using state-of-the-art fabrication techniques. Advanced engineering tools such as SolidWorks and ANSYS are utilized to develop designs that are robust, modular, lightweight, and structurally efficient.
 						</p>
 						<Link to="/mechanical">
 							<p className="link">Know More</p>
@@ -48,16 +40,7 @@ function SubS() {
 					</div>
 					<div className="info-link">
 						<p className="info">
-							The Electrical Subsystem builds the framework
-							powering our AUV consisting of Power Distribution
-							System and the Monitoring system. Arduino Mega is
-							used to control the actuation and read data from
-							various sensors which in turn is controlled by an
-							Intel NUC. We work on the electrical aspects of the
-							AUV, providing power, driving actuators and
-							interfacing with various sensors on board. We build
-							custom PCBs and act as an interface between software
-							and mechanical subsystems.
+							The Electrical Subsystem develops the core electronic framework that powers the AUV, including the Power Distribution and Monitoring systems. The team designs and manages the vehicle’s electrical architecture, ensuring reliable power delivery, actuator control, and seamless sensor integration. An STM32 Nucleo microcontroller is used for real-time control of actuators and data acquisition from onboard sensors, which interfaces with an Intel NUC for higher-level processing. The subsystem also designs custom PCBs and serves as the critical link between the mechanical and software subsystems, enabling efficient communication and coordinated system functionality.
 						</p>
 						<Link to="/electrical">
 							<p className="link">Know More</p>
@@ -73,16 +56,7 @@ function SubS() {
 					</div>
 					<div className="info-link">
 						<p className="info">
-							The software subsystem develops the algorithms
-							controlling the robot and making it autonomous. We
-							use latest cutting edge technologies in the world of
-							robotics software. The software subsytem carries out
-							simulations Gazebo and UWSim to ensure that things
-							work smoothly before actual testing.The main aim of
-							software subsystem is to write code, that is generic
-							and error free, in order efficiently coordinate the
-							vehicles motion and enable it perform at full
-							potential.
+							The Software Subsystem develops the algorithms and control architecture that enable the AUV to operate autonomously. The team leverages modern robotics frameworks and cutting-edge technologies to implement perception, navigation, and control systems for the vehicle. Extensive simulations are carried out in environments such as Gazebo and UWSim to validate system behavior before real-world testing. The primary objective of the subsystem is to develop robust, scalable, and reliable software that efficiently coordinates the vehicle’s motion and ensures optimal performance during missions.
 						</p>
 						<Link to="/software">
 							<p className="link">Know More</p>
@@ -98,20 +72,11 @@ function SubS() {
 					</div>
 					<div className="info-link">
 						<p className="info">
-							The Business subsystem manages the fundings and
-							outreach activities of the team. We manage the
-							expenditures and fundings of the team. We represent
-							the team before our sponsors and try to procure
-							them. We maintain the team website and pages on the
-							different social media platforms. The main aim of
-							the business subsystem is to ensure that the team
-							gets sufficient fundings and has an excellent
-							outreach to ensure the smooth functioning of the
-							other three subsystems.
+							The Business Subsystem manages the team’s funding, sponsorships, and outreach initiatives. The team oversees financial planning and expenditure management while actively engaging with sponsors and partners to secure resources that support the development of the AUV. It is also responsible for maintaining the team’s digital presence through the website and various social media platforms. The primary objective of the Business Subsystem is to ensure sustainable funding and strong outreach, enabling the technical subsystems to operate effectively and focus on innovation and development.
 						</p>
-						<Link to="/business">
+						{/* <Link to="/business">
 							<p className="link">Know More</p>
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</CardContainer>
